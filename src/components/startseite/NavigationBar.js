@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import logo from '../img/logo.svg'
-import '../css/NavigationBar.css';
+import logo from '../../img/logo.svg'
+import '../../css/NavigationBar.css';
 
 class NavigationBar extends React.Component {
     render() {
@@ -16,7 +16,7 @@ class NavigationBar extends React.Component {
             <div id="nav-container">
                 <nav id="main-nav">
                     <ul>
-                        <a href="#home"><li>HOOOME</li></a>
+                        <a href="#home"><li>HOME</li></a>
                         <a href="#about"><li>ABOUT</li></a>
                         <a href="#services"><li>SERVICES</li></a>
                         <a href="#contact"><li>CONTACT</li></a>

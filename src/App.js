@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import NavigationBar from './components/NavigationBar';
+import NavigationBar from './components/startseite/NavigationBar';
 
 function App() {
   return (
