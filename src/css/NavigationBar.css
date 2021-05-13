@@ -1,6 +1,6 @@
 #parent {
     width: 100%;
-    height: 65px;
+    height: 66px;
 
     /* Der Header bleibt fix oben in der Leiste beim Scrollen. */ 
     position: fixed;
