@@ -16,7 +16,7 @@ class NavigationBar extends React.Component {
             <div id="nav-container">
                 <nav id="main-nav">
                     <ul>
-                        <a href="#home"><li>STARTSEITE</li></a>
+                        <a href="#home"><li>HOME</li></a>
                         <a href="#about"><li>ABOUT</li></a>
                         <a href="#services"><li>SERVICES</li></a>
                         <a href="#contact"><li>CONTACT</li></a>
