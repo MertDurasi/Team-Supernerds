@@ -1,0 +1,63 @@
+#parent {
+    width: 100%;
+    height: 65px;
+
+    /* Der Header bleibt fix oben in der Leiste beim Scrollen. */ 
+    position: fixed;
+
+    /* Top und Left sind die Abstände zu den Viewrändern. */
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    /* Schatten */
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+
+}
+
+#logo-container {
+    width: 100px;
+    height: 70px;
+    float: left;
+
+    /* Abstände zu den Rändern */
+    margin: 0px 0px 0px 75px;
+    /* Übergang zwischen zwei Zuständen */
+    transition: all 300ms;
+}
+
+#logo {
+    width: 100%;
+    height: 100%;
+}
+
+#logo:hover {
+    opacity: 0.5;
+}
+
+#nav-container nav {
+    float: right;
+    margin: 10px 75px 0px 0px;
+}
+
+#nav-container nav:after {
+    transition: all 300ms;
+}
+
+#nav-container nav ul li {
+    float: left;
+    margin-right: 25px;
+}
+
+#nav-container nav ul li:hover {
+    padding-top: 5px;
+    transition: all 300ms;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 30px;
+}
