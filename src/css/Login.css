@@ -9,6 +9,8 @@
 }
 
 
+
+
 /* Text: "Willkommen auf"*/
 #text-1 {
     font-family: 'Volte', Regular, sans-serif;
@@ -29,3 +31,25 @@
     font-size: 17px;
     color: black;
 }
+
+/* Linker Container für "Einlogg"-Option */
+
+#login-container {
+    position: fixed;
+    width: 645px;
+    height: 840px;
+    left: 70px;
+    top: 35px;
+    background-color: #FFFFFF;
+
+}
+
+/* Rechter Container -> Illustration */
+#login-illustration {
+    position: fixed;
+    width: 745px;
+    height: 747px;
+    left: 960px;
+    top: 160px;
+}
+

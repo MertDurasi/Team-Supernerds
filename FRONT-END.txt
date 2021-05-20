@@ -6,20 +6,25 @@ Die Positionierung und die Größe dieser Elemente werden im Laufe des Projekts 
 Dieses Dokument dient lediglich zur Übersicht.
 Die Images sind unter "/src/img/login" zu finden.
 
+
+
+// TODO: Das hier Updaten -> ist noch das alte Design! (Alte Login Design)
+
+
 	1. Hintergrund 
-		a. Breite: 1920px
-		b. Höhe 1080px
-		c. Farbcode: #FAFAFA
-	2. Illustration 
-		a. Breite: 745px
+		a. Breite: 1920px // Alexander Kokoreff
+		b. Höhe 1080px // Alexander Kokoreff
+		c. Farbcode: #FAFAFA // Alexander Kokoreff
+	2. Illustration  // Alexander Kokoreff -> müssen noch angepasst werden (die Daten sind von der alten Illustration)
+		a. Breite: 745px 
 		b. Höhe: 747px
 		c. Position X: 960
 		d. Position Y: 166
-	3. Container (Hintergrund) für die Login-Elemente 
-		a. Breite: 645px
+	3. Container (Hintergrund) für die Login-Elemente // Alexander Kokoreff (muss noch angepasst werden)
+		a. Breite: 645px 
 		b. Höhe: 940px
 		c. Position X: 70
-		d. Position Y: 70
+		d. Position Y: 70 
 		e. Schatten: X=15, Y=15, W=30
 		f. Farbcode: #FFFFF
 	4. Logo
