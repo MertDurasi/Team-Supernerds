@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../img/logo.svg";
+import logo from "../../img/login/logo.svg";
 import "../../css/NavigationBar.css";
 
 class NavigationBar extends React.Component {
@@ -26,6 +26,9 @@ class NavigationBar extends React.Component {
               </a>
               <a href="#contact">
                 <li>CONTACT</li>
+              </a>
+              <a href="/login">
+                <li>LOGIN</li>
               </a>
             </ul>
           </nav>
