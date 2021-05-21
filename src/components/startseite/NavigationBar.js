@@ -27,6 +27,9 @@ class NavigationBar extends React.Component {
               <a href="#contact">
                 <li>CONTACT</li>
               </a>
+              <a href="/login">
+                <li>LOGIN</li>
+              </a>
             </ul>
           </nav>
         </div>

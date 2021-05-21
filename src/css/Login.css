@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Volte";
+    src: url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.eot");
+    src: url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.svg#Volte") format("svg"); 
+}
+
+
+
+
+/* Text: "Willkommen auf"*/
+#text-1 {
+    font-family: 'Volte', Regular, sans-serif;
+    font-size: 29px;
+    color: #808080;
+}
+
+/* Text: "Workmanager" */
+#ueberschrift-1 {
+    font-family: 'Volte', semi-bold, sans-serif;
+    font-size: 36px;
+    color: black;
+}
+
+/* Text: "Geben Sie bitte Ihren Benutzernamen sowie Ihr Passwort ein und bestätigen Sie das reCAPTCHA" */
+#text-2 {
+    font-family: 'Volte', semi-bold, sans-serif;
+    font-size: 17px;
+    color: black;
+}
+
+/* Linker Container für "Einlogg"-Option */
+
+#login-container {
+    position: fixed;
+    width: 645px;
+    height: 840px;
+    left: 70px;
+    top: 35px;
+    background-color: #FFFFFF;
+
+}
+
+/* Rechter Container -> Illustration */
+#login-illustration {
+    position: fixed;
+    width: 745px;
+    height: 747px;
+    left: 960px;
+    top: 160px;
+}
+

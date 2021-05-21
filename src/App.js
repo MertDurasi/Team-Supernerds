@@ -1,8 +1,8 @@
 import React from "react";
 import Startseite from "./components/startseite/Startseite";
 import Dashboard from "./components/dashboard/Dashboard";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Login from "./components/login/Login";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
           <Route path="/startseite" component={Startseite} />
           <Route path="/login" component={Login} />
           <Route path="/dashboard" component={Dashboard} />
+          <Route path="/login" component={Login} />
         </Switch>
       </Router>
     </div>

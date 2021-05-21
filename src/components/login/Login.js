@@ -1,12 +1,15 @@
 import React, { Component } from "react";
+import "../../css/Background.css";
+import Illustration from "./Illustration";
+import LoginScreen from "./LoginScreen";
 
-class Login extends Component {
+class Login extends React.Component {
   state = {};
   render() {
     return (
       <React.Fragment>
-        <p>Login</p>
-        <p>Password</p>
+        <LoginScreen></LoginScreen>
+        <Illustration></Illustration>
       </React.Fragment>
     );
   }

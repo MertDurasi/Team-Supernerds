@@ -6,56 +6,61 @@ Die Positionierung und die Größe dieser Elemente werden im Laufe des Projekts 
 Dieses Dokument dient lediglich zur Übersicht.
 Die Images sind unter "/src/img/login" zu finden.
 
-	1. Hintergrund
-		a. Breite: 1920px
-		b. Höhe 1080px
-		c. Farbcode: #FAFAFA
-	2. Illustration
-		a. Breite: 1067px
-		b. Höhe: 820px
-		c. Position X: 780
-		d. Position Y: 130
-	3. Container (Hintergrund) für die Login-Elemente
-		a. Breite: 645px
+
+
+// TODO: Das hier Updaten -> ist noch das alte Design! (Alte Login Design)
+
+
+	1. Hintergrund 
+		a. Breite: 1920px // Alexander Kokoreff
+		b. Höhe 1080px // Alexander Kokoreff
+		c. Farbcode: #FAFAFA // Alexander Kokoreff
+	2. Illustration  // Alexander Kokoreff -> müssen noch angepasst werden (die Daten sind von der alten Illustration)
+		a. Breite: 745px 
+		b. Höhe: 747px
+		c. Position X: 960
+		d. Position Y: 166
+	3. Container (Hintergrund) für die Login-Elemente // Alexander Kokoreff (muss noch angepasst werden)
+		a. Breite: 645px 
 		b. Höhe: 940px
 		c. Position X: 70
-		d. Position Y: 70
+		d. Position Y: 70 
 		e. Schatten: X=15, Y=15, W=30
 		f. Farbcode: #FFFFF
 	4. Logo
-		a. Breite: 90px
-		b. Höhe: 60px
+		a. Breite: 90px //(Mert Durasi)
+		b. Höhe: 60px //(Mert Durasi)
 		c. Position X: 153
 		d. Position Y: 156
 	5. Text Nr. 1
-		a. Text: "Willkommen auf"
-		b. Schriftart: Volte W03 Regular
-		c. Schriftgröße: 29
-		d. Farbcode: #808080
+		a. Text: "Willkommen auf" //(Mert Durasi)
+		b. Schriftart: Volte W03 Regular //(Mert Durasi)
+		c. Schriftgröße: 29 //(Mert Durasi)
+		d. Farbcode: #808080 //(Mert Durasi)
 		e. Position X: 152
 		f. Position Y: 252
 	6. Text Nr. 2
-		a. Text: "Work Manager"
-		b. Schriftart: Volte W03 Semi-Bold
-		c. Schriftgröße: 36
-		d. Farbcode: #00000
+		a. Text: "Workmanager" //(Mert Durasi)
+		b. Schriftart: Volte W03 Semi-Bold //(Mert Durasi)
+		c. Schriftgröße: 36 //(Mert Durasi)
+		d. Farbcode: #00000 //(Mert Durasi)
 		e. Position X: 152
 		f. Position Y: 290
 	7. Text Nr. 3
-		a. Text: "Geben Sie Ihren Benutzernamen sowie Ihr Passwort ein und bestätigen Sie das reCAPTCHA"
-		b. Schriftart: Volte W03 Regular
-		c. Schriftgröße: 17
-		d. Farbcode: #808080
+		a. Text: "Geben Sie Ihren Benutzernamen sowie Ihr Passwort ein und bestätigen Sie das reCAPTCHA" //(Mert Durasi)
+		b. Schriftart: Volte W03 Regular //(Mert Durasi)
+		c. Schriftgröße: 17 //(Mert Durasi)
+		d. Farbcode: #808080 //(Mert Durasi)
 		e. Position X: 152
 		f. Position Y: 358
-	8. Eingabefeld: 2x Textfelder
+	8. Eingabefeld: 2x Textfelder 
 		a. Farbcode: #FFFFF
 		b. Radius (Ecken): 10
 		c. Funktion: Passwort ein-/ausblenden.
 		d. Keine weiteren Vorgaben.
 	9. Link Nr. 1
-		a. Text: "Passwort vergessen?"
-		b. Schriftart: Volte W03 Regular
+		a. Text: "Passwort vergessen?" //(Mert Durasi)
+		b. Schriftart: Volte W03 Regular //(Mert Durasi)
 		c. Schriftgröße: 17
 		d. Der obere Abstand zum Textfeld: 5px
 		e. Position X: 463 (Kann je nach Größe des Textfeldes variieren.)
@@ -65,14 +70,14 @@ Die Images sind unter "/src/img/login" zu finden.
 		b. Breite: 2/3 oder 1/1 Größe vom Textfeld.
 		c. Der obere Abstand zum Links "Passwort vergessen?": 6-10px
 	11. Button Nr. 1
-		a. Text: "Einloggen"
+		a. Text: "Einloggen" //(Mert Durasi)
 		b. Breite: 142px
 		c. Höhe: 45px
 		d. Position X: 315
 		e. Position Y: 752
 		f. Der obere Abstand zu reCAPTCHA: 28-30px.
-	12. Text Nr. 4 + AGB + Datenschutz + Hilfe + Impressum
-		a. Text: " [COPYRIGHT] Work Manager von supernerds"
-		b. Schriftart: Volte W03 Regular
+	12. Text Nr. 4 + AGB + Datenschutz + Hilfe + Impressum //(Mert Durasi)
+		a. Text: " [COPYRIGHT] Workmanager von supernerds" //(Mert Durasi)
+		b. Schriftart: Volte W03 Regular 
 		c. Schriftgröße: 17
 		d. Position: Nach Augenmaß positionieren.
