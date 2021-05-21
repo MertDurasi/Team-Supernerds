@@ -16,7 +16,7 @@ class NavigationBar extends React.Component {
           <nav id="main-nav">
             <ul>
               <a href="#home">
-                <li>HOMEE</li>
+                <li>HOME</li>
               </a>
               <a href="#about">
                 <li>ABOUT</li>
