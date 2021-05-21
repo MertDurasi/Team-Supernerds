@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../img/logo.svg";
+import logo from "../../img/login/logo.svg";
 import "../../css/NavigationBar.css";
 
 class NavigationBar extends React.Component {
