@@ -1,6 +1,5 @@
-import React, { Component } from "react";
-import "../../css/Login.css";
-import LoginFooter from "./LoginFooter.js";
+import React from "react";
+import "./Login.css";
 import logo from "../../img/login/logo.svg";
 
 class LoginScreen extends React.Component {
@@ -13,36 +12,22 @@ class LoginScreen extends React.Component {
             <img
               id="login-logo"
               src={logo}
-              width="90"
-              height="60"
               alt="logo"
             ></img>
             <div className="login-text">
               <p id="text-1">Willkommen auf</p>
               <h1 id="ueberschrift-1">Workmanager</h1>
               <p id="text-2">
-                Geben Sie bitte Ihren Benutzernamen sowie Ihr Passwort ein und
-                <br /> bestätigen Sie das reCAPTCHA
+                Geben Sie bitte Ihren Benutzernamen sowie Ihr Passwort ein <br /> und 
+                bestätigen Sie das reCAPTCHA
               </p>
             </div>
           </div>
 
           <form>
-            <input
-              className="login-text"
-              type="text"
-              placeholder="max_mustermann"
-              name="uname"
-              required
-            ></input>
+            <input className="login-text-area" id="username" type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;max_mustermann" name="uname" required></input>
             <br />
-            <input
-              className="login-text"
-              type="passwort"
-              placeholder="********"
-              name="psw"
-              required
-            ></input>
+            <input className="login-text-area" id="passwort" type="passwort" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;********" name="psw" required></input>
             <br />
             <span className="psw">
               <a href="/login">Passwort vergessen?</a>
@@ -50,15 +35,23 @@ class LoginScreen extends React.Component {
             <br />
 
             {/******************* Platzhalter für reCAPTCHA *******************/}
+            
             <div id="login-btn-container" className="login-text-centered">
-              <button id="login-btn" type="submit">
-                Einloggen
-              </button>
+              <button id="login-btn" type="submit">Einloggen</button>
             </div>
           </form>
 
           {/******************* Footer für den Login-Container *******************/}
-          <LoginFooter></LoginFooter>
+          <div id="login-footer" className="login-footer">
+            <p className="login-text-centered">
+              &copy; Workmanager by Supernerds
+          </p>
+            <div className="login-text-centered">
+              <a href="/login">AGB</a>|
+              <a href="/login">DATENSCHUTZ</a> |
+              <a href="/login">IMPRESSUM</a>
+            </div>
+          </div>
         </div>
       </React.Fragment>
     );

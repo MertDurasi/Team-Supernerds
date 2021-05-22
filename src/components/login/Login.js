@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import "../../css/Background.css";
+import React from "react";
 import Illustration from "./Illustration";
 import LoginScreen from "./LoginScreen";
 
