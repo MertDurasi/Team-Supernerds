@@ -42,14 +42,15 @@ class LoginScreen extends React.Component {
           </form>
 
           {/******************* Footer für den Login-Container *******************/}
-          <div id="login-footer" className="login-footer">
-            <p className="login-text-centered">
+          <div>
+            <p className="login-footer-text">
               &copy; Workmanager by Supernerds
           </p>
-            <div className="login-text-centered">
+            <div className="login-footer-text-redirects">
               <a href="/login">AGB</a>|
-              <a href="/login">DATENSCHUTZ</a> |
-              <a href="/login">IMPRESSUM</a>
+              <a href="/login">Datenschutz</a>|
+              <a href="/login">Hilfe</a>|
+              <a href="/login">Impressum</a>
             </div>
           </div>
         </div>

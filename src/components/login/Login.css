@@ -33,7 +33,7 @@ html, body {
 #login-logo {
   width: 35%;
   height: 35%;
-  margin-top: 13%;
+  margin-top: 8%;
 }
 
 .login-text {
@@ -104,7 +104,7 @@ html, body {
   border-radius: 25px;
   border-width: 0px;
   width: 142px;
-  height: 45px;
+  height: 40px;
   text-align: center;
   padding: 0px;
 }
@@ -114,6 +114,8 @@ html, body {
 }
 
 #login-btn-container {
+  left: 37%;
+  bottom: 15%;
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -124,6 +126,38 @@ html, body {
   align-items: center;
   position: absolute;
   bottom: 0;
+}
+
+.login-footer-text {
+  font-family: "Volte", Regular, sans-serif;
+  color: #808080;
+  display: flex;
+  position: absolute;
+  left: 30%;
+  bottom: 5%;
+  margin-top: 10px;
+
+}
+
+
+a, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.login-footer-text-redirects {
+
+  font-family: "Volte", Regular, sans-serif;
+  color: #808080;
+  display: flex;
+  position: absolute;
+  left: 26%;
+  bottom: 4%;
+
+}
+
+.login-footer-text-redirects a {
+  margin: 0 5px 0 5px;
 }
 
 
