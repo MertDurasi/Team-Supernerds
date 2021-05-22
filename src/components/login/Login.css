@@ -21,8 +21,8 @@ html, body {
 /* Linker Container für "Einlogg"-Option */
 #login-container {
   position: fixed;
-  width: 645px;
-  height: 940px;
+  width: 30%;
+  height: 75%;
   left: 5%;
   top: 12.5%;
   border-radius: 25px;
@@ -33,7 +33,7 @@ html, body {
 #login-logo {
   width: 35%;
   height: 35%;
-  margin-top: 15%;
+  margin-top: 13%;
 }
 
 .login-text {
