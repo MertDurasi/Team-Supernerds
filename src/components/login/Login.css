@@ -13,11 +13,39 @@
       format("svg");
 }
 
+html, body {
+  background-color: #FAFAFA;
+  height: 100%;
+}
+
+/* Linker Container für "Einlogg"-Option */
+#login-container {
+  position: fixed;
+  width: 645px;
+  height: 940px;
+  left: 5%;
+  top: 12.5%;
+  border-radius: 25px;
+  background-color: #ffffff;
+  box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+#login-logo {
+  width: 35%;
+  height: 35%;
+  margin-top: 15%;
+}
+
+.login-text {
+  line-height: 80%;
+}
+
 /* Text: "Willkommen auf"*/
 #text-1 {
   font-family: "Volte", Regular, sans-serif;
   font-size: 29px;
   color: #808080;
+  margin: 0% 0% 0% 12.5%; /* Oben rechts unten links */
 }
 
 /* Text: "Workmanager" */
@@ -25,32 +53,47 @@
   font-family: "Volte", semi-bold, sans-serif;
   font-size: 36px;
   color: black;
+  margin-left: 12.5%;
+  margin-top: 4%;
 }
 
 /* Text: "Geben Sie bitte Ihren Benutzernamen sowie Ihr Passwort ein und bestätigen Sie das reCAPTCHA" */
 #text-2 {
   font-family: "Volte", semi-bold, sans-serif;
-  font-size: 10px;
+  font-size: 17px;
   color: black;
-  margin-bottom: 10%;
+  margin-left: 12.5%;
+  margin-top: 6%;
+  line-height: 125%;
 }
 
-/* Linker Container für "Einlogg"-Option */
+.login-text-area {
+  width: 74%;
+  margin-left: 12.5%;
+  border-radius: 15px;
+  border-style: none;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
 
-#login-container {
-  position: fixed;
-  width: 30%;
-  height: 90%;
-  left: 5%;
-  top: 5%;
-  border-radius: 25px;
-  background-color: #ffffff;
+
+#passwort {
+  margin-top: 0.5%;
+}
+
+.login-text-area:first-child {
+  margin-top: 5%
+}
+
+.psw {
+  margin-left: 65%;
 }
 
 /* Rechter Container -> Illustration */
 #login-illustration {
   position: fixed;
-  left: 50%;
+  right: 12.5%;
   top: 15%;
   height: 70%;
 }
@@ -60,9 +103,10 @@
   color: white;
   border-radius: 25px;
   border-width: 0px;
-  width: 30%;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  width: 142px;
+  height: 45px;
+  text-align: center;
+  padding: 0px;
 }
 
 #login-btn:hover {
@@ -74,13 +118,12 @@
   margin-bottom: 5%;
 }
 
-.login-text {
-  margin-left: 15%;
-  margin-right: 15%;
-}
-
 .login-text-centered {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  bottom: 0;
 }
+
+
