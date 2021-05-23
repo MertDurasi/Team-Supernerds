@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import "../../css/Login.css";
+import React from "react";
+import "./Login.css";
 import illustration from "../../img/login/Illustration.svg";
 
 class Illustration extends React.Component {

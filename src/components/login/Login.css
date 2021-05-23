@@ -1,0 +1,190 @@
+@font-face {
+  font-family: "Volte";
+  src: url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.eot");
+  src: url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.svg#Volte")
+      format("svg");
+}
+
+html, body {
+  background-color: #FAFAFA;
+  height: 100%;
+}
+
+/* Linker Container für "Einlogg"-Option */
+#login-container {
+  position: fixed;
+  width: 30%;
+  height: 75%;
+  left: 5%;
+  top: 12.5%;
+  border-radius: 25px;
+  background-color: #ffffff;
+  box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+#login-logo {
+  width: 35%;
+  height: 35%;
+  margin-top: 8%;
+}
+
+.login-text {
+  line-height: 80%;
+}
+
+/* Text: "Willkommen auf"*/
+#text-1 {
+  font-family: "Volte", Regular, sans-serif;
+  font-size: 1.2vw;
+  /*font-size: 29px;*/
+  color: #808080;
+  margin: 0% 0% 0% 12.5%; /* Oben rechts unten links */
+}
+
+/* Text: "Workmanager" */
+#ueberschrift-1 {
+  font-family: "Volte", semi-bold, sans-serif;
+  font-size: 1.5vw;
+  /*font-size: 36px;*/
+  color: black;
+  margin-left: 12.5%;
+  margin-top: 4%;
+}
+
+/* Text: "Geben Sie bitte Ihren Benutzernamen sowie Ihr Passwort ein und bestätigen Sie das reCAPTCHA" */
+#text-2 {
+  font-family: "Volte", bold, sans-serif;
+  font-size: 0.7vw;
+  /*font-size: 17px;*/
+  color: black;
+  margin: 6% 12.5% auto 12.5%;
+  /*
+  margin-left: 12.5%;
+  margin-top: 6%;
+  */
+  line-height: 125%;
+}
+
+.login-text-area {
+  width: 74%;
+  margin: auto 12.5% auto 12.5%;
+  /*margin-left: 12.5%;*/
+  border-radius: 15px;
+  border-style: none;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+
+#passwort {
+  margin-top: 0.5%;
+}
+
+.login-text-area:first-child {
+  margin-top: 5%
+}
+
+#psw_vergessen {
+  position: fixed;
+  font-size: 0.6vw;
+  margin-left: 20%;
+  margin-top: 0.5%;
+  margin-right: 12.5%;
+}
+
+/* Rechter Container -> Illustration */
+#login-illustration {
+  position: fixed;
+  width: 30%;
+  height: 65%;  
+  left: 57.5%;
+  top: 15%;
+  right: 15%;
+  bottom: 15%;
+  /*position: fixed;
+  right: 12.5%;
+  top: 15%;
+  height: 70%;*/
+}
+
+#login-btn {
+  position: fixed;
+  width: 5.8vw;
+  height: 3.4vh;
+  /*
+  width: 142px;
+  height: 40px;
+  */
+  margin: 2.5% 20% 0 12%;
+
+  background-color: #0000ff;
+  color: white;
+  border-radius: 25px;
+  border-width: 0px;
+  text-align: center;
+  font-size: 0.65vw;
+}
+
+#login-btn:hover {
+  background-color: #5555ff;
+}
+
+
+/*
+.login-text-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+*/
+
+a, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.login-footer-text {
+  font-family: "Volte", Regular, sans-serif;
+  color: #808080;
+  font-size: 0.6vw;
+
+  display: flex;
+  position: absolute;
+  left: 34%;
+  bottom: 3.5%;
+}
+
+.login-footer-text-redirects {
+  font-family: "Volte", Regular, sans-serif;
+  color: #808080;
+  font-size: 0.6vw;
+  
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  /*
+  display: flex;
+  position: absolute;
+  left: 30%;
+  bottom: 3.25%;
+  */
+}
+
+.login-footer-text-redirects a {
+  margin: 0 5px 0 5px;
+}
+
+
