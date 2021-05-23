@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="182.498" height="182.498" viewBox="0 0 182.498 182.498">
+  <g id="Profil_Logo" data-name="Profil Logo" transform="translate(-1.5 -1.5)">
+    <path id="Pfad" d="M78.363,40.681A33.181,33.181,0,1,1,45.181,7.5,33.181,33.181,0,0,1,78.363,40.681Z" transform="translate(47.568 27.181)" fill="#707070" fill-rule="evenodd"/>
+    <path id="Pfad-2" data-name="Pfad" d="M92.749,1.5A91.249,91.249,0,1,0,184,92.749,91.247,91.247,0,0,0,92.749,1.5ZM18.091,92.749a74.359,74.359,0,0,0,15.828,45.973,74.674,74.674,0,0,1,118.2-.7A74.658,74.658,0,1,0,18.091,92.749Z" transform="translate(0 0)" fill="#707070" fill-rule="evenodd"/>
+    <rect id="blau" width="22" height="20" transform="translate(117.749 139.999)" fill="#2768e2"/>
+    <rect id="rot" width="22" height="20" transform="translate(46.749 139.999)" fill="#dc4967"/>
+    <path id="Minus" d="M18,2.25A15.75,15.75,0,1,0,33.75,18,15.751,15.751,0,0,0,18,2.25Zm9,16.875H9v-2.25H27Z" transform="translate(39.499 132.249)" fill="#fff"/>
+    <path id="Plus" d="M34,18A16,16,0,1,1,18,2,16,16,0,0,1,34,18Zm-8.41-1.5H19.5V10.41a1.5,1.5,0,0,0-3,0V16.5H10.41a1.5,1.5,0,0,0,0,3H16.5v6.09a1.5,1.5,0,1,0,3,0V19.5h6.09a1.5,1.5,0,1,0,0-3Z" transform="translate(110.749 131.999)" fill="#fff"/>
+  </g>
+</svg>
