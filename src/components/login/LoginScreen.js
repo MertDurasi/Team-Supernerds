@@ -29,20 +29,15 @@ class LoginScreen extends React.Component {
             <br />
             <input className="login-text-area" id="passwort" type="passwort" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;********" name="psw" required></input>
             <br />
-            <span className="psw">
-              <a href="/login">Passwort vergessen?</a>
-            </span>
+            <a id="psw_vergessen" href="/login">Passwort vergessen?</a>
             <br />
-
             {/******************* Platzhalter für reCAPTCHA *******************/}
-            
-            <div id="login-btn-container" className="login-text-centered">
-              <button id="login-btn" type="submit">Einloggen</button>
-            </div>
+            <button id="login-btn" type="submit">Einloggen</button>
           </form>
 
           {/******************* Footer für den Login-Container *******************/}
-          <div>
+          
+          <div id="login-footer">
             <p className="login-footer-text">
               &copy; Workmanager by Supernerds
           </p>
