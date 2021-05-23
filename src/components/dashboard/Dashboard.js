@@ -1,18 +1,48 @@
 import React, { Component } from "react";
 import Button from "./Button";
+import hamburger_logo from "../../img/dashboard/Hamburger-Logo.svg";
+import neuigkeiten from "../../img/dashboard/Neuigkeiten.svg";
+import dienstplan from "../../img/dashboard/Dienstplan.svg";
+import lohnabrechnung from "../../img/dashboard/Lohnabrechnung.svg";
+import urlaubsantrag from "../../img/dashboard/Urlaubsantrag.svg";
+import downloads from "../../img/dashboard/Downloads.svg";
+import kontaktformular from "../../img/dashboard/Kontaktformular.svg";
+import einstellungen from "../../img/dashboard/Zahnrad.svg";
 
 class Dashboard extends Component {
-  state = {
-    buttons: [
-      "Neuigkeiten",
-      "Dienstplan",
-      "Urlaubsantrag",
-      "Lohnabrechnung",
-      "Downloads",
-      "Kontaktformular",
-      "Einstellungen",
-    ],
-  };
+  state = {};
+
+  menu_objekte = [
+    {
+      text: "Neuigkeiten",
+      logo: neuigkeiten
+    },
+    {
+      text: "Dienstplan",
+      logo: dienstplan
+    },
+    {
+      text: "Urlaubsantrag",
+      logo: urlaubsantrag
+    },
+    {
+      text: "Lohnabrechnung",
+      logo: lohnabrechnung
+    },
+    {
+      text: "Downloads",
+      logo: downloads
+    },
+    {
+      text: "Kontaktformular",
+      logo: kontaktformular
+    },
+    {
+      text: "Einstellungen",
+      logo: einstellungen
+    },
+
+  ]
   render() {
     return (
       <div id="dashboard" className="grid-container">
@@ -21,10 +51,10 @@ class Dashboard extends Component {
         <div className="profile">Profil</div>
         <div className="menu">
           <div id="hamburger-container">
-            <button id="hamburger">HamburgerLogo</button>
+          <img id="hamburger_logo" src={hamburger_logo} alt="| | |"></img>
           </div>
-          {this.state.buttons.map((button) => {
-            return <Button key={button} component={button}></Button>;
+          {this.menu_objekte.map((field) => {
+            return <Button key={field.text} component={field.text} logoid={field.logo} logosrc={field.logo}></Button>;
           })}
         </div>
         <div className="main">
