@@ -43,7 +43,8 @@ html, body {
 /* Text: "Willkommen auf"*/
 #text-1 {
   font-family: "Volte", Regular, sans-serif;
-  font-size: 29px;
+  font-size: 1.2vw;
+  /*font-size: 29px;*/
   color: #808080;
   margin: 0% 0% 0% 12.5%; /* Oben rechts unten links */
 }
@@ -51,7 +52,8 @@ html, body {
 /* Text: "Workmanager" */
 #ueberschrift-1 {
   font-family: "Volte", semi-bold, sans-serif;
-  font-size: 36px;
+  font-size: 1.5vw;
+  /*font-size: 36px;*/
   color: black;
   margin-left: 12.5%;
   margin-top: 4%;
@@ -59,17 +61,22 @@ html, body {
 
 /* Text: "Geben Sie bitte Ihren Benutzernamen sowie Ihr Passwort ein und bestätigen Sie das reCAPTCHA" */
 #text-2 {
-  font-family: "Volte", semi-bold, sans-serif;
-  font-size: 17px;
+  font-family: "Volte", bold, sans-serif;
+  font-size: 0.7vw;
+  /*font-size: 17px;*/
   color: black;
+  margin: 6% 12.5% auto 12.5%;
+  /*
   margin-left: 12.5%;
   margin-top: 6%;
+  */
   line-height: 125%;
 }
 
 .login-text-area {
   width: 74%;
-  margin-left: 12.5%;
+  margin: auto 12.5% auto 12.5%;
+  /*margin-left: 12.5%;*/
   border-radius: 15px;
   border-style: none;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
@@ -86,40 +93,53 @@ html, body {
   margin-top: 5%
 }
 
-.psw {
-  margin-left: 65%;
+#psw_vergessen {
+  position: fixed;
+  font-size: 0.6vw;
+  margin-left: 20%;
+  margin-top: 0.5%;
+  margin-right: 12.5%;
 }
 
 /* Rechter Container -> Illustration */
 #login-illustration {
   position: fixed;
+  width: 30%;
+  height: 65%;  
+  left: 57.5%;
+  top: 15%;
+  right: 15%;
+  bottom: 15%;
+  /*position: fixed;
   right: 12.5%;
   top: 15%;
-  height: 70%;
+  height: 70%;*/
 }
 
 #login-btn {
+  position: fixed;
+  width: 5.8vw;
+  height: 3.4vh;
+  /*
+  width: 142px;
+  height: 40px;
+  */
+  margin: 2.5% 20% 0 12%;
+
   background-color: #0000ff;
   color: white;
   border-radius: 25px;
   border-width: 0px;
-  width: 142px;
-  height: 40px;
   text-align: center;
-  padding: 0px;
+  font-size: 0.65vw;
 }
 
 #login-btn:hover {
   background-color: #5555ff;
 }
 
-#login-btn-container {
-  left: 37%;
-  bottom: 15%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
 
+/*
 .login-text-centered {
   display: flex;
   justify-content: center;
@@ -127,33 +147,40 @@ html, body {
   position: absolute;
   bottom: 0;
 }
-
-.login-footer-text {
-  font-family: "Volte", Regular, sans-serif;
-  color: #808080;
-  display: flex;
-  position: absolute;
-  left: 30%;
-  bottom: 5%;
-  margin-top: 10px;
-
-}
-
+*/
 
 a, a:active {
   text-decoration: none;
   color: inherit;
 }
 
-.login-footer-text-redirects {
-
+.login-footer-text {
   font-family: "Volte", Regular, sans-serif;
   color: #808080;
+  font-size: 0.6vw;
+
   display: flex;
   position: absolute;
-  left: 26%;
-  bottom: 4%;
+  left: 34%;
+  bottom: 3.5%;
+}
 
+.login-footer-text-redirects {
+  font-family: "Volte", Regular, sans-serif;
+  color: #808080;
+  font-size: 0.6vw;
+  
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  /*
+  display: flex;
+  position: absolute;
+  left: 30%;
+  bottom: 3.25%;
+  */
 }
 
 .login-footer-text-redirects a {
