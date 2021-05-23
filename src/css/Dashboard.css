@@ -1,0 +1,61 @@
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "menu news news news news location location profile"
+    "menu main main main main main main main"
+    "menu main main main main main main main"
+    "menu main main main main main main main"
+    "menu main main main main main main main"
+    "menu main main main main main main main"
+    "menu main main main main main main main"
+    "menu main main main main main main main"
+    "menu main main main main main main main";
+  background-color: #eeeeee;
+  width: 800px;
+  height: 600px;
+}
+
+.news {
+  grid-area: news;
+  background-color: violet;
+}
+
+.profile {
+  grid-area: profile;
+  background-color: yellowgreen;
+}
+
+.location {
+  grid-area: location;
+  background-color: #123456;
+}
+
+.menu {
+  grid-area: menu;
+  background-color: #888888;
+}
+
+.main {
+  grid-area: main;
+  background-color: #5500ff;
+}
+
+#hamburger-container {
+  height: 50px;
+  background-color: teal;
+}
+
+.btn-container {
+  background-color: #ff0000;
+  border-radius: 15px;
+  padding: 5px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: menu;
+}
+
+.btn-container:hover {
+  background-color: violet;
+}
