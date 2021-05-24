@@ -1,12 +1,14 @@
 import React from "react";
 import "./Login.css";
 import logo from "../../img/login/logo.svg";
+import background from "../../img/login/login_background-2.png";
 
 class LoginScreen extends React.Component {
   state = {};
   render() {
     return (
       <React.Fragment>
+        <img id="background" src={background} alt="background"></img>
         <div id="login-container" className="login-container">
           <div id="login-container-head">
             <img
@@ -40,7 +42,7 @@ class LoginScreen extends React.Component {
           <div id="login-footer">
             <p className="login-footer-text">
               &copy; Workmanager by Supernerds
-          </p>
+            </p>
             <div className="login-footer-text-redirects">
               <a href="/login">AGB</a>|
               <a href="/login">Datenschutz</a>|
