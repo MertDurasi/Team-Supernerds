@@ -1,7 +1,7 @@
 .grid-container {
   display: grid;
   grid-template-areas:
-    "menu news news news location location profile"
+    "menu news news news news location profile" /* news location und profile sollten zusammengefasst werden, damit wir einen box-shadow einfacher implementieren koennen */
     "menu main main main main main main"
     "menu main main main main main main"
     "menu main main main main main main"
@@ -10,25 +10,49 @@
     "menu main main main main main main"
     "menu main main main main main main"
     "menu main main main main main main";
-  background-color: #eeeeee;
   width: 100%;
   height: 100vh; /* 1vh entspricht 1% von der bildschirm größe */
 }
 
-.news {
+.news-container {
   grid-area: news;
-  background-color: #eeeeee;
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+}
+
+.news {
   text-align: center;
+  width: 100%;
+  margin-left: 7%;
+  margin-right: 7%;
+  background-color: #e0e0e0;
+  border-radius: 25vh;
+}
+
+.RPfeil {
+  background-color: red;
+  padding-left: 15px;
+}
+
+.LPfeil {
+  background-color: red;
+  padding-right: 15px;
 }
 
 .profile {
   grid-area: profile;
-  background-color: #eeeeee;
+  background-color: #f9f9f9;
+  text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .location {
   grid-area: location;
-  background-color: #eeeeee;
+  text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .menu {

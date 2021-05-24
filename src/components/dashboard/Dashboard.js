@@ -8,6 +8,8 @@ import urlaubsantrag from "../../img/dashboard/Urlaubsantrag.svg";
 import downloads from "../../img/dashboard/Downloads.svg";
 import kontaktformular from "../../img/dashboard/Kontaktformular.svg";
 import einstellungen from "../../img/dashboard/Zahnrad.svg";
+import LPfeil from "../../img/dashboard/Pfeil nach links.svg";
+import RPfeil from "../../img/dashboard/Pfeil nach rechts.svg";
 
 class Dashboard extends Component {
   state = {};
@@ -45,9 +47,18 @@ class Dashboard extends Component {
   render() {
     return (
       <div id="dashboard" className="grid-container">
-        <div className="news">Some pretty random and uncreative news</div>
+        <div className="news-container">
+          <div className="news">
+            <img className="LPfeil" src={LPfeil} alt="linker pfeil"></img>
+            Wichtige Information: Am 08. Juni 2021 findet das zweite
+            WT2-Praktikum statt.
+            <img className="RPfeil" src={RPfeil} alt="rechter pfeil"></img>
+          </div>
+        </div>
         <div className="location">Hochschule Bochum</div>
-        <div className="profile">Profil</div>
+        <div className="profile">
+          <b>Logo</b> Profil
+        </div>
         <div className="menu">
           <div id="hamburger-container">
             <img id="hamburger_logo" src={hamburger_logo} alt="| | |"></img>
