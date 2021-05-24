@@ -15,34 +15,33 @@ class Dashboard extends Component {
   menu_objekte = [
     {
       text: "Neuigkeiten",
-      logo: neuigkeiten
+      logo: neuigkeiten,
     },
     {
       text: "Dienstplan",
-      logo: dienstplan
+      logo: dienstplan,
     },
     {
       text: "Urlaubsantrag",
-      logo: urlaubsantrag
+      logo: urlaubsantrag,
     },
     {
       text: "Lohnabrechnung",
-      logo: lohnabrechnung
+      logo: lohnabrechnung,
     },
     {
       text: "Downloads",
-      logo: downloads
+      logo: downloads,
     },
     {
       text: "Kontaktformular",
-      logo: kontaktformular
+      logo: kontaktformular,
     },
     {
       text: "Einstellungen",
-      logo: einstellungen
+      logo: einstellungen,
     },
-
-  ]
+  ];
   render() {
     return (
       <div id="dashboard" className="grid-container">
@@ -51,10 +50,17 @@ class Dashboard extends Component {
         <div className="profile">Profil</div>
         <div className="menu">
           <div id="hamburger-container">
-          <img id="hamburger_logo" src={hamburger_logo} alt="| | |"></img>
+            <img id="hamburger_logo" src={hamburger_logo} alt="| | |"></img>
           </div>
           {this.menu_objekte.map((field) => {
-            return <Button key={field.text} component={field.text} logoid={field.logo} logosrc={field.logo}></Button>;
+            return (
+              <Button
+                key={field.text}
+                component={field.text}
+                logoid={field.logo}
+                logosrc={field.logo}
+              ></Button>
+            );
           })}
         </div>
         <div className="main">

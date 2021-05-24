@@ -1,81 +1,97 @@
 .grid-container {
   display: grid;
   grid-template-areas:
-    "menu news news news news location location profile"
-    "menu main main main main main main main"
-    "menu main main main main main main main"
-    "menu main main main main main main main"
-    "menu main main main main main main main"
-    "menu main main main main main main main"
-    "menu main main main main main main main"
-    "menu main main main main main main main"
-    "menu main main main main main main main";
+    "menu news news news location location profile"
+    "menu main main main main main main"
+    "menu main main main main main main"
+    "menu main main main main main main"
+    "menu main main main main main main"
+    "menu main main main main main main"
+    "menu main main main main main main"
+    "menu main main main main main main"
+    "menu main main main main main main";
   background-color: #eeeeee;
   width: 100%;
   height: 100vh; /* 1vh entspricht 1% von der bildschirm größe */
 }
 
-
-
 .news {
   grid-area: news;
-  background-color: violet;
-
+  background-color: #eeeeee;
+  text-align: center;
 }
-
-
 
 .profile {
   grid-area: profile;
-  background-color: yellowgreen;
+  background-color: #eeeeee;
 }
 
 .location {
   grid-area: location;
-  background-color: #123456;
+  background-color: #eeeeee;
 }
 
 .menu {
   grid-area: menu;
-  background-color: #2768E2;
+  background-color: #2768e2;
+  height: 100vh;
 }
 
 .main {
   grid-area: main;
-  background-color: #5500ff;
+  background-color: #dddddd;
 }
 
 #hamburger-container {
   height: 11.5vh;
-  background-color: #2768E2;
+  background-color: #2768e2;
 }
 
 #hamburger_logo {
-    position: relative;
-    left: 80%;
-    top: 10%;
-    color: white;
+  position: relative;
+  color: white;
+  left: 70%;
+  top: 20%;
 }
 
 .btn-container {
-  background-color: #ff0000;
   position: relative;
-  top: 5%;
-  border-radius: 15px;
-  padding: 5px;
   margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   grid-area: menu;
-  height: 50px;
-}
-
-.logo-container {
-  position: relative;
-  right: 10%;
+  height: 5vh;
 }
 
 .btn-container:hover {
-  background-color: violet;
+  background-color: #2768e2;
+}
+
+.logo {
+  height: 95%;
+  vertical-align: middle;
+  padding-right: 1vh;
+}
+
+.btn {
+  color: white;
+  background-color: #2768e2;
+  border: none;
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+  padding: 1vh;
+}
+
+.btn-text {
+  vertical-align: middle;
+}
+
+.btn:active {
+  color: #ff0000;
+}
+
+.btn:hover {
+  background-image: linear-gradient(to right, #0546c0, #2768e2);
 }

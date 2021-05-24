@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Logo from "./Logo";
 import "../../css/Dashboard.css";
 
 class Button extends Component {
@@ -7,8 +6,14 @@ class Button extends Component {
   render() {
     return (
       <div className="btn-container">
-        <Logo logoid={this.props.logoid} logosrc={this.props.logosrc}></Logo>
-        <button className="btn">{this.props.component}</button>
+        <button className="btn">
+          <img
+            className="logo"
+            src={this.props.logoid}
+            alt="Error Displaying"
+          ></img>
+          <span className="btn-text">{this.props.component}</span>
+        </button>
       </div>
     );
   }
