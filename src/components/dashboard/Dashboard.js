@@ -1,15 +1,16 @@
 import React, { Component } from "react";
 import Button from "./Button";
 import hamburger_logo from "../../img/dashboard/Hamburger-Logo.svg";
-import neuigkeiten from "../../img/dashboard/Neuigkeiten.svg";
-import dienstplan from "../../img/dashboard/Dienstplan.svg";
-import lohnabrechnung from "../../img/dashboard/Lohnabrechnung.svg";
-import urlaubsantrag from "../../img/dashboard/Urlaubsantrag.svg";
-import downloads from "../../img/dashboard/Downloads.svg";
-import kontaktformular from "../../img/dashboard/Kontaktformular.svg";
-import einstellungen from "../../img/dashboard/Zahnrad.svg";
-import LPfeil from "../../img/dashboard/Pfeil nach links.svg";
-import RPfeil from "../../img/dashboard/Pfeil nach rechts.svg";
+import neuigkeiten_logo from "../../img/dashboard/Neuigkeiten.svg";
+import dienstplan_logo from "../../img/dashboard/Dienstplan.svg";
+import lohnabrechnung_logo from "../../img/dashboard/Lohnabrechnung.svg";
+import urlaubsantrag_logo from "../../img/dashboard/Urlaubsantrag.svg";
+import downloads_logo from "../../img/dashboard/Downloads.svg";
+import kontaktformular_logo from "../../img/dashboard/Kontaktformular.svg";
+import einstellungen_logo from "../../img/dashboard/Zahnrad.svg";
+import LPfeil_logo from "../../img/dashboard/Pfeil nach links.svg";
+import RPfeil_logo from "../../img/dashboard/Pfeil nach rechts.svg";
+import Profil_logo from "../../img/dashboard/Profil.svg";
 
 class Dashboard extends Component {
   state = {};
@@ -17,31 +18,31 @@ class Dashboard extends Component {
   menu_objekte = [
     {
       text: "Neuigkeiten",
-      logo: neuigkeiten,
+      logo: neuigkeiten_logo,
     },
     {
       text: "Dienstplan",
-      logo: dienstplan,
+      logo: dienstplan_logo,
     },
     {
       text: "Urlaubsantrag",
-      logo: urlaubsantrag,
+      logo: urlaubsantrag_logo,
     },
     {
       text: "Lohnabrechnung",
-      logo: lohnabrechnung,
+      logo: lohnabrechnung_logo,
     },
     {
       text: "Downloads",
-      logo: downloads,
+      logo: downloads_logo,
     },
     {
       text: "Kontaktformular",
-      logo: kontaktformular,
+      logo: kontaktformular_logo,
     },
     {
       text: "Einstellungen",
-      logo: einstellungen,
+      logo: einstellungen_logo,
     },
   ];
   render() {
@@ -49,15 +50,15 @@ class Dashboard extends Component {
       <div id="dashboard" className="grid-container">
         <div className="news-container">
           <div className="news">
-            <img className="LPfeil" src={LPfeil} alt="linker pfeil"></img>
+            <img className="LPfeil" src={LPfeil_logo} alt="linker pfeil"></img>
             Wichtige Information: Am 08. Juni 2021 findet das zweite
             WT2-Praktikum statt.
-            <img className="RPfeil" src={RPfeil} alt="rechter pfeil"></img>
+            <img className="RPfeil" src={RPfeil_logo} alt="rechter pfeil"></img>
           </div>
         </div>
         <div className="location">Hochschule Bochum</div>
         <div className="profile">
-          <b>Logo</b> Profil
+          <img src={Profil_logo}/> Profil
         </div>
         <div className="menu">
           <div id="hamburger-container">
