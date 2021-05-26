@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Volte";
+    src: url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.eot");
+    src: url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.eot?#iefix")
+        format("embedded-opentype"),
+      url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.woff2")
+        format("woff2"),
+      url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.woff")
+        format("woff"),
+      url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.ttf")
+        format("truetype"),
+      url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.svg#Volte")
+        format("svg");
+  }
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "Volte", Regular, sans-serif;
+}
+
+.text-primary-p {
+    color: #a5aaad;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 0.8fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 3fr;
+    grid-template-areas:
+       "menu nav nav nav"
+       "menu main main main";
+}
+
+@media only screen and (max-width: 1150px){
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 3fr;
+        grid-template-areas:
+        "nav"
+        "main";
+    }
+}
