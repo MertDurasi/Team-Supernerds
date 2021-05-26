@@ -9,7 +9,7 @@ main {
 }
 
 @media only screen and (max-width: 855px) {
-    .main__cards {
+    .main__container {
       grid-template-columns: 1fr;
       gap: 10px;
       margin-bottom: 0;
