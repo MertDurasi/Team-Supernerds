@@ -5,8 +5,7 @@ import Navigation from "./Navigation";
 import Sidebar from "./Sidebar";
 import Neuigkeiten from "./Neuigkeiten";
 
-
-const Update = () => {
+const Dashboard = () => {
   
     const [menuOpen, setMenuOpen] = useState(false);
 
@@ -28,4 +27,4 @@ const Update = () => {
     );
 }
 
-export default Update;
+export default Dashboard;

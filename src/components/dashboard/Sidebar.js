@@ -14,9 +14,6 @@ import Profil_logo from "../../img/dashboard/Profil.svg";
 import React from "react";
 
 class Sidebar extends React.Component {
-  onCloseMenu() {
-    this.props.closeMenu();
-  }
 
   render() {
     return (
