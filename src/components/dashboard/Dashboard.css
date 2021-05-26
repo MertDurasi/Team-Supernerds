@@ -35,7 +35,7 @@ body {
 }
 
 
-.container {
+.container-open {
     display: grid;
     height: 100vh;
     grid-template-columns: 0.8fr 1fr 1fr 1fr;
@@ -45,8 +45,18 @@ body {
        "menu main main main";
 }
 
+.container-closed {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 0.8fr 6fr 6fr 6fr;
+  grid-template-rows: 0.2fr 3fr;
+  grid-template-areas:
+     "menu nav nav nav"
+     "menu main main main";
+}
+
 @media only screen and (max-width: 1150px){
-    .container {
+    .container-open, .container-closed {
         grid-template-columns: 1fr;
         grid-template-rows: 0.2fr 3fr;
         grid-template-areas:

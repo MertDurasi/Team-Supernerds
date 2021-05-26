@@ -15,8 +15,6 @@ import React from "react";
 import Button from "./Button";
 
 class Sidebar extends React.Component {
-<<<<<<< HEAD
-=======
   state = { showText: true };
 
   menu_objekte = [
@@ -50,16 +48,13 @@ class Sidebar extends React.Component {
     },
   ];
 
-  setShowButton() {}
->>>>>>> 4248dc0c9e65dd1a5cd895e500f8d5fd87f0c960
 
   render() {
     return (
       <div
         className={this.props.menuOpen ? "" : "sidebar-responsive"}
-        id="sidebar-menu"
-      >
-        <div className="sidebar-titel">
+        id="sidebar-menu">
+        <div className={this.props.menuOpen ? "sidebar-titel-open" : "sidebar-titel-closed"} >
           <img
             src={hamburger_logo}
             id="sidebar-icon-image"

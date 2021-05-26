@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../../css/Dashboard.css";
+import "./Button.css";
 
 class Button extends Component {
   state = {};

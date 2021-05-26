@@ -8,7 +8,7 @@ import Neuigkeiten from "./Neuigkeiten";
 
 const Dashboard = () => {
   
-    const [menuOpen, setMenuOpen] = useState(false);
+    const [menuOpen, setMenuOpen] = useState(true);
 
   const openMenu = () => {
     setMenuOpen(true);
@@ -18,7 +18,7 @@ const Dashboard = () => {
   };
 
   return (
-    <div className="container">
+    <div className={menuOpen ? "container-open" : "container-closed"}>
       <Navigation
         menuOpen={menuOpen}
         openMenu={openMenu}
