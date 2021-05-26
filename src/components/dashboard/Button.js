@@ -5,25 +5,27 @@ class Button extends Component {
   state = {};
   render() {
     if (this.props.menuOpen) {
-    return (
-      <div className="btn-container">
-          <img
-            className="logo"
-            src={this.props.logoid}
-            alt="Error Displaying"
-          ></img>
-      </div>
-    );
+      return (
+        <div className="btn-container">
+          <button className="btn">
+            <img
+              className="logo"
+              src={this.props.component.logo}
+              alt="Error Displaying"
+            ></img>
+            <span className="btn-text">{this.props.component.text}</span>
+          </button>
+        </div>
+      );
     } else {
       return (
         <div className="btn-container">
           <button className="btn">
             <img
               className="logo"
-              src={this.props.logoid}
+              src={this.props.component.logo}
               alt="Error Displaying"
             ></img>
-            <span className="btn-text">{this.props.component}</span>
           </button>
         </div>
       );

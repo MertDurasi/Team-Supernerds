@@ -12,51 +12,74 @@ import LPfeil_logo from "../../img/dashboard/Pfeil nach links.svg";
 import RPfeil_logo from "../../img/dashboard/Pfeil nach rechts.svg";
 import Profil_logo from "../../img/dashboard/Profil.svg";
 import React from "react";
+import Button from "./Button";
 
 class Sidebar extends React.Component {
+<<<<<<< HEAD
+=======
+  state = { showText: true };
+
+  menu_objekte = [
+    {
+      text: "Neuigkeiten",
+      logo: neuigkeiten_logo,
+    },
+    {
+      text: "Dienstplan",
+      logo: dienstplan_logo,
+    },
+    {
+      text: "Urlaubsantrag",
+      logo: urlaubsantrag_logo,
+    },
+    {
+      text: "Lohnabrechnung",
+      logo: lohnabrechnung_logo,
+    },
+    {
+      text: "Downloads",
+      logo: downloads_logo,
+    },
+    {
+      text: "Kontaktformular",
+      logo: kontaktformular_logo,
+    },
+    {
+      text: "Einstellungen",
+      logo: einstellungen_logo,
+    },
+  ];
+
+  setShowButton() {}
+>>>>>>> 4248dc0c9e65dd1a5cd895e500f8d5fd87f0c960
 
   render() {
     return (
       <div
-        className={this.props.menuOpen ? "sidebar-responsive" : ""}
+        className={this.props.menuOpen ? "" : "sidebar-responsive"}
         id="sidebar-menu"
       >
         <div className="sidebar-titel">
           <img
             src={hamburger_logo}
             id="sidebar-icon-image"
-            onClick={() => this.onCloseMenu()}
+            onClick={
+              this.props.menuOpen
+                ? () => this.props.closeMenu()
+                : () => this.props.openMenu()
+            }
           />
         </div>
         <div className="sidebar-menu-main">
-          <div className="sidebar--link active-menu-link">
-            <img src={neuigkeiten_logo} alt="error" />
-            <a href="#">Neuigkeiten</a>
-          </div>
-          <div className="sidebar--link">
-            <img src={dienstplan_logo} alt="error" />
-            <a href="#">Dienstplan</a>
-          </div>
-          <div className="sidebar--link">
-            <img src={lohnabrechnung_logo} alt="error" />
-            <a href="#">Urlaubsantrag</a>
-          </div>
-          <div className="sidebar--link">
-            <img src={urlaubsantrag_logo} alt="error" />
-            <a href="#">Lohnabrechnung</a>
-          </div>
-          <div className="sidebar--link">
-            <img src={downloads_logo} alt="error" />
-            <a href="#">Downloads</a>
-          </div>
-          <div className="sidebar--link">
-            <img src={kontaktformular_logo} alt="error" />
-            <a href="#">Kontaktformular</a>
-          </div>
-          <div className="sidebar--link">
-            <img src={einstellungen_logo} alt="error" />
-            <a href="#">Einstellungen</a>
-          </div>
+          {this.menu_objekte.map((field) => {
+            return (
+              <Button
+                menuOpen={this.props.menuOpen}
+                component={field}
+                showText={this.state.showText}
+              ></Button>
+            );
+          })}
           <div className="sidebar__relinkers">
             <a href="#">AGB | Impressum | Datenschutz</a>
           </div>

@@ -5,26 +5,29 @@ import Navigation from "./Navigation";
 import Sidebar from "./Sidebar";
 import Neuigkeiten from "./Neuigkeiten";
 
+
 const Dashboard = () => {
   
     const [menuOpen, setMenuOpen] = useState(false);
 
-    const openMenu = () => {
-        setMenuOpen(true);
-        console.log("test");
-    }
-    const closeMenu = () => {
-        setMenuOpen(false);
-        console.log("test");
-    }
+  const openMenu = () => {
+    setMenuOpen(true);
+  };
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
 
-    return (
-      <div className="container">
-          <Navigation menuOpen={menuOpen} openMenu={openMenu} />
-          <Neuigkeiten />
-          <Sidebar menuOpen={menuOpen} closeMenu={closeMenu}/>
-      </div>
-    );
-}
+  return (
+    <div className="container">
+      <Navigation
+        menuOpen={menuOpen}
+        openMenu={openMenu}
+        closeMenu={closeMenu}
+      />
+      <Neuigkeiten />
+      <Sidebar menuOpen={menuOpen} closeMenu={closeMenu} openMenu={openMenu} />
+    </div>
+  );
+};
 
 export default Dashboard;
