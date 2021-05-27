@@ -1,5 +1,9 @@
 .btn-text {
-    color: white;
-    position: inline;
-    
+  color: white;
+  position: inline;
+  padding-left: 5vh;
+}
+
+.btn {
+  text-align: left;
 }
