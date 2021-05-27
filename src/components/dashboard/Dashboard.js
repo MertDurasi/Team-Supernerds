@@ -5,10 +5,8 @@ import Navigation from "./Navigation";
 import Sidebar from "./Sidebar";
 import Neuigkeiten from "./Neuigkeiten";
 
-
 const Dashboard = () => {
-  
-    const [menuOpen, setMenuOpen] = useState(true);
+  const [menuOpen, setMenuOpen] = useState(true);
 
   const openMenu = () => {
     setMenuOpen(true);
@@ -19,12 +17,12 @@ const Dashboard = () => {
 
   return (
     <div className={menuOpen ? "container-open" : "container-closed"}>
+      <Neuigkeiten />
       <Navigation
         menuOpen={menuOpen}
         openMenu={openMenu}
         closeMenu={closeMenu}
       />
-      <Neuigkeiten />
       <Sidebar menuOpen={menuOpen} closeMenu={closeMenu} openMenu={openMenu} />
     </div>
   );
