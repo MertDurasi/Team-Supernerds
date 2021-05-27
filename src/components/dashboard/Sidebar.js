@@ -65,7 +65,7 @@ class Sidebar extends React.Component {
             }
           />
         </div>
-        <div className="sidebar-menu-main">
+        <div className={this.props.menuOpen ? "sidebar-menu-main" : "sidebar-menu-main-closed"}>
           {this.menu_objekte.map((field) => {
             return (
               <Button
@@ -78,7 +78,12 @@ class Sidebar extends React.Component {
           })}
 
           <div className="sidebar__relinkers">
-            <a href="#">AGB | Datenschutz | Impressum</a>
+          <p className="sidebar-footer-text">
+              &copy; Workmanager 2021
+            </p>
+            <a href="/infos">AGB |</a>
+            <a href="/infos"> Datenschutz |</a>
+            <a href="/infos"> Impressum</a>
           </div>
         </div>
       </div>
