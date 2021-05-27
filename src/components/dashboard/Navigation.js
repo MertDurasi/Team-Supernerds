@@ -1,7 +1,6 @@
 import "./Navigation.css";
 import profil_logo from "../../img/dashboard/Profil.svg";
 import abmelden from "../../img/dashboard/Abmelden.svg";
-import { Container, Navbar, NavDropdown } from "react-bootstrap";
 /* hamburger menu momentan schlecht, da weiß auf weiß */
 
 const Navigation = ({ menuOpen, openMenu, closeMenu }) => {

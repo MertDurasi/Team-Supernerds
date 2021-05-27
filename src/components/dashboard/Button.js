@@ -1,14 +1,25 @@
 import React, { Component } from "react";
+import { useHistory } from "react-router";
 import "../../css/Dashboard.css";
 import "./Button.css";
 
 class Button extends Component {
   state = {};
+
+  constructor(props) {
+    super(props);
+    this.log = this.log.bind(this);
+  }
+
+  log() {
+    console.log(this.props.component.text);
+  }
+
   render() {
     if (this.props.menuOpen) {
       return (
         <div className="btn-container">
-          <button className="btn">
+          <button className="btn" onClick={this.log}>
             <img
               className="logo"
               src={this.props.component.logo}
@@ -21,7 +32,7 @@ class Button extends Component {
     } else {
       return (
         <div className="btn-container">
-          <button className="btn">
+          <button className="btn" onClick={this.log}>
             <img
               className="logo"
               src={this.props.component.logo}

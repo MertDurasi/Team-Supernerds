@@ -3,6 +3,11 @@ import NavigationBar from "./NavigationBar";
 
 class Startseite extends Component {
   state = {};
+
+  log() {
+    console.log("Test");
+  }
+
   render() {
     return (
       <React.Fragment>
