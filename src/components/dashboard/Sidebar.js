@@ -82,7 +82,7 @@ class Sidebar extends React.Component {
             );
           })}
           <div className="sidebar__relinkers">
-            <a href="#">AGB | Impressum | Datenschutz</a>
+            <a href="#">AGB | Datenschutz | Impressum</a>
           </div>
         </div>
       </div>
