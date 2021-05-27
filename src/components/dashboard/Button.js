@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import { useHistory } from "react-router";
 import "../../css/Dashboard.css";
 import "./Button.css";
+import { Link } from "react-router-dom";
 
 class Button extends Component {
   state = {};
@@ -19,26 +19,26 @@ class Button extends Component {
     if (this.props.menuOpen) {
       return (
         <div className="btn-container">
-          <button className="btn" onClick={this.log}>
+          <Link className="btn" to={"/dashboard" + this.props.component.route}>
             <img
               className="logo"
               src={this.props.component.logo}
               alt="Error Displaying"
             ></img>
             <span className="btn-text">{this.props.component.text}</span>
-          </button>
+          </Link>
         </div>
       );
     } else {
       return (
         <div className="btn-container">
-          <button className="btn" onClick={this.log}>
+          <Link className="btn" to={"/dashboard" + this.props.component.route}>
             <img
               className="logo"
               src={this.props.component.logo}
               alt="Error Displaying"
             ></img>
-          </button>
+          </Link>
         </div>
       );
     }

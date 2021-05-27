@@ -16,30 +16,37 @@ class Sidebar extends React.Component {
   menu_objekte = [
     {
       text: "Neuigkeiten",
+      route: "/neuigkeiten",
       logo: neuigkeiten_logo,
     },
     {
       text: "Dienstplan",
+      route: "/dienstplan",
       logo: dienstplan_logo,
     },
     {
       text: "Urlaubsantrag",
+      route: "/urlaubsantrag",
       logo: urlaubsantrag_logo,
     },
     {
       text: "Lohnabrechnung",
+      route: "/lohnabrechnung",
       logo: lohnabrechnung_logo,
     },
     {
       text: "Downloads",
+      route: "/downloads",
       logo: downloads_logo,
     },
     {
       text: "Kontaktformular",
+      route: "/kontaktformular",
       logo: kontaktformular_logo,
     },
     {
       text: "Einstellungen",
+      route: "/einstellungen",
       logo: einstellungen_logo,
     },
   ];
