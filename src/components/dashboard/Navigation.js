@@ -20,7 +20,15 @@ const Navigation = ({ menuOpen, openMenu, closeMenu }) => {
       </div>
       <div className="navigation-right">
         <div className="dropdown">
-          <img className="dropbtn" width="30" src={profil_logo} alt="avatar" />
+          <div className="profile">
+            <img
+              className="dropbtn"
+              width="30"
+              src={profil_logo}
+              alt="avatar"
+            />
+            <span>Greta Soundso</span>
+          </div>
           <div className="dropdown-content">
             <a href="/dashboard/profil">Profil</a>
             <a href="/dashboard/abmelden">Abmelden</a>
