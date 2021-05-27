@@ -30,8 +30,11 @@
 
 /* Burger-Menu - Icon */
 
-.sidebar-menu-main {
-  color: green;
+.sidebar-menu-main-closed a {
+  display: none;
+}
+.sidebar-menu-main-closed p {
+  display: none;
 }
 
 .sidebar--link {
@@ -54,13 +57,19 @@
   color: white;
 }
 
+.sidebar-footer-text {
+  position: relative;
+  left: 5%;
+  top: 195px;
+}
+
 .sidebar__relinkers > a {
   text-decoration: none;
   color: white;
-  font-weight: 600;
-  position: absolute;
-  bottom: 10px;
-  left: 90px;
+  font-weight: 500;
+  position: relative;
+  left: 0;
+  top: 215px;
 }
 
 .sidebar-responsive {
