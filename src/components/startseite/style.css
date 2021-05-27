@@ -1,0 +1,179 @@
+/* Volte W03 Regular */
+
+@font-face {
+    font-family: "Volte";
+    src: url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.eot");
+    src: url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.woff") format("woff"), url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.svg#Volte") format("svg");
+}
+
+/* Volte W03 Semi-Bold */
+
+@font-face {
+    font-family: "Volte";
+    src: url("//db.onlinewebfonts.com/t/65ded642716f79f0fcf568897d345427.eot");
+    src: url("//db.onlinewebfonts.com/t/65ded642716f79f0fcf568897d345427.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/65ded642716f79f0fcf568897d345427.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/65ded642716f79f0fcf568897d345427.woff") format("woff"), url("//db.onlinewebfonts.com/t/65ded642716f79f0fcf568897d345427.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/65ded642716f79f0fcf568897d345427.svg#Volte") format("svg");
+}
+
+/* Volte W03 Semi-Bold */
+
+@font-face {
+    font-family: "Volte";
+    src: url("//db.onlinewebfonts.com/t/62e0539b3fe51ff09d8fc7cff13c5d9f.eot");
+    src: url("//db.onlinewebfonts.com/t/62e0539b3fe51ff09d8fc7cff13c5d9f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/62e0539b3fe51ff09d8fc7cff13c5d9f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/62e0539b3fe51ff09d8fc7cff13c5d9f.woff") format("woff"), url("//db.onlinewebfonts.com/t/62e0539b3fe51ff09d8fc7cff13c5d9f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/62e0539b3fe51ff09d8fc7cff13c5d9f.svg#Volte") format("svg");
+}
+
+/* Volte W03 Medium */
+
+@font-face {
+    font-family: "Volte";
+    src: url("//db.onlinewebfonts.com/t/dd67cb30e0d728dc1a6c687df0dcd5b1.eot");
+    src: url("//db.onlinewebfonts.com/t/dd67cb30e0d728dc1a6c687df0dcd5b1.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/dd67cb30e0d728dc1a6c687df0dcd5b1.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/dd67cb30e0d728dc1a6c687df0dcd5b1.woff") format("woff"), url("//db.onlinewebfonts.com/t/dd67cb30e0d728dc1a6c687df0dcd5b1.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/dd67cb30e0d728dc1a6c687df0dcd5b1.svg#Volte") format("svg");
+}
+
+/* Volte W03 Medium */
+
+@font-face {
+    font-family: "Volte";
+    src: url("//db.onlinewebfonts.com/t/e8baef6d977a30e5def4dea4dfb2781e.eot");
+    src: url("//db.onlinewebfonts.com/t/e8baef6d977a30e5def4dea4dfb2781e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e8baef6d977a30e5def4dea4dfb2781e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/e8baef6d977a30e5def4dea4dfb2781e.woff") format("woff"), url("//db.onlinewebfonts.com/t/e8baef6d977a30e5def4dea4dfb2781e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/e8baef6d977a30e5def4dea4dfb2781e.svg#Volte") format("svg");
+}
+
+#parent {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    font-family: 'Volte', Medium, sans-serif;
+    font-weight: 300;
+}
+
+h1, h2, h3, a {
+    font-family: 'Volte', Medium, sans-serif;
+    font-weight: 300;
+    color: black;
+}
+
+h3 {
+    font-size: 40px;
+    padding-top: 8%;
+    margin-bottom: 15px;
+}
+
+#home, #about, #services, #contact {
+    min-height: 100%;
+}
+
+hr {
+    width: 30px;
+    height: 3px;
+    background: black;
+    margin: 0 auto 40px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+#header {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+#logo-container {
+    width: 150px;
+    float: left;
+    margin: 0px 0px 0px 50px;
+    transition: all 300ms;
+}
+
+#logo-container:hover {
+    opacity: 0.5;
+}
+
+#logo {
+    width: 100%;
+    height: 100%;
+}
+
+#header {
+    background-color: white;
+}
+
+#nav-container nav {
+    float: right;
+    margin: 10px 50px 0px 0px;
+}
+
+#nav-container nav ul li {
+    float: left;
+    margin-right: 25px;
+    font-family: 'Volte', Medium, sans-serif;
+    font-weight: 500;
+    color: #666666;
+}
+
+#nav-container nav ul li:hover {
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: all 300ms;
+}
+
+#login {
+    padding-left: 50px;
+}
+
+#nav-container nav ul li a {
+    font-size: 16px;
+}
+
+/* ===================  Startseite =================== */
+
+#home {
+    background: rgb(0, 159, 255);
+    background: linear-gradient(90deg, rgba(0, 159, 255, 1) 0%, rgba(0, 101, 255, 1) 59%, rgba(0, 24, 255, 1) 100%);
+    padding: 200px;
+    text-align: left;
+}
+
+#home-left-container {
+    line-height: 18px;
+}
+
+
+#home-left-container p, h1, h2{
+    color: white;
+}
+
+#home-left-container h1 {
+    font-family: 'Volte', bold, sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+#home-left-container h2 {
+    font-family: 'Volte', bold, sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+/* ===================   Über uns  =================== */
+
+* {
+    box-sizing: border-box;
+}
+
+#about {
+    height: 100%;
+    background-color: 8D96BD;
+    margin: 0;
+}
