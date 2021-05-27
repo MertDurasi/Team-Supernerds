@@ -52,7 +52,7 @@ class Sidebar extends React.Component {
   render() {
     return (
       <div
-        className={this.props.menuOpen ? "" : "sidebar-responsive"}
+        className={this.props.menuOpen ? "sidebar-normal" : "sidebar-responsive"}
         id="sidebar-menu">
         <div className={this.props.menuOpen ? "sidebar-titel-open" : "sidebar-titel-closed"} >
           <img
