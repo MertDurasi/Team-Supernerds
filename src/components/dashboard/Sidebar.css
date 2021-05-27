@@ -1,5 +1,4 @@
 #sidebar-menu {
-
   background: #2768e2;
   grid-area: menu;
   overflow-y: auto;
@@ -8,16 +7,12 @@
   transition: all 0.5s;
 }
 
-
-
 .sidebar-titel-open {
-
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 100px;
   margin-bottom: 30px;
-
 }
 
 .sidebar-titel-open > img {
@@ -62,27 +57,10 @@
 .sidebar__relinkers > a {
   text-decoration: none;
   color: white;
-<<<<<<< HEAD
-  font-weight: 700;
-  font-size: small;
-  text-transform: uppercase;
-  position: absolute;
-  bottom: 1%;
-  padding-bottom: 2vh;
-  padding-left: 2%;
-}
-
-.sidebar__relinkers > span {
-  position: absolute;
-  bottom: 6%;
-  font-size: small;
-  padding-left: 4%;
-=======
   font-weight: 600;
   position: absolute;
   bottom: 10px;
   left: 90px;
->>>>>>> 12bc70353af92866ca4cbd8adba5739ae7156294
 }
 
 .sidebar-responsive {
@@ -94,7 +72,6 @@
   margin: 0;
   padding: 0;
 }
-
 
 @media only screen and (max-width: 1150px) {
   #sidebar-menu {

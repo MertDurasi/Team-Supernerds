@@ -51,7 +51,6 @@ class Sidebar extends React.Component {
   render() {
     return (
       <div
-
         className={this.props.menuOpen ? "" : "sidebar-responsive"}
         id="sidebar-menu"
       >
@@ -60,7 +59,6 @@ class Sidebar extends React.Component {
             this.props.menuOpen ? "sidebar-titel-open" : "sidebar-titel-closed"
           }
         >
-
           <img
             src={hamburger_logo}
             id="sidebar-icon-image"
@@ -82,12 +80,7 @@ class Sidebar extends React.Component {
             );
           })}
           <div className="sidebar__relinkers">
-<<<<<<< HEAD
-            <span>&copy; Workmanager</span>
-            <a href="#">AGB | Impressum | Datenschutz</a>
-=======
             <a href="#">AGB | Datenschutz | Impressum</a>
->>>>>>> 12bc70353af92866ca4cbd8adba5739ae7156294
           </div>
         </div>
       </div>
