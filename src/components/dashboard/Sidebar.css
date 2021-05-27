@@ -59,10 +59,19 @@
   text-decoration: none;
   color: white;
   font-weight: 700;
+  font-size: small;
   text-transform: uppercase;
   position: absolute;
   bottom: 1%;
-  left: 3%;
+  padding-bottom: 2vh;
+  padding-left: 2%;
+}
+
+.sidebar__relinkers > span {
+  position: absolute;
+  bottom: 6%;
+  font-size: small;
+  padding-left: 4%;
 }
 
 .sidebar-responsive {

@@ -80,6 +80,7 @@ class Sidebar extends React.Component {
             );
           })}
           <div className="sidebar__relinkers">
+            <span>&copy; Workmanager</span>
             <a href="#">AGB | Impressum | Datenschutz</a>
           </div>
         </div>
