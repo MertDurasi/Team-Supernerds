@@ -5,6 +5,7 @@ import "./style.css";
 
 class Startseite extends Component {
   state = {};
+
   render() {
     return (
       <div id="parent">
