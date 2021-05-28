@@ -1,12 +1,16 @@
+
+
 const Urlaubsantrag = () => {
   return (
     <main>
-      <div className="main__container">
-        <div className="neuigkeiten-container">
-          <h1>Urlaubsantrag hier</h1>
-        </div>
+    <div className="main__container">
+      <div className="headliner">
+        <h2>Urlaubsantrag hier</h2>
+        <span>Hier können Sie einen Urlaubsantrag einreichen</span>
       </div>
-    </main>
+        <div className="grundgeruest-container"></div>
+     </div>
+  </main>
   );
 };
 

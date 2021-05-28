@@ -29,7 +29,7 @@ const Navigation = ({ menuOpen, openMenu, closeMenu }) => {
             <span>Greta Soundso</span>
           </div>
           <div className="dropdown-content">
-            <a href="/dashboard/profil">Profil</a>
+            <a href="/dashboard/einstellungen">Profil</a>
             <a href="/dashboard/abmelden">Abmelden</a>
           </div>
         </div>

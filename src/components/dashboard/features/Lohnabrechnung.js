@@ -1,12 +1,14 @@
 const Lohnabrechnung = () => {
   return (
     <main>
-      <div className="main__container">
-        <div className="neuigkeiten-container">
-          <h1>Lohnabrechnung hier</h1>
-        </div>
+    <div className="main__container">
+      <div className="headliner">
+        <h2>Lohnabrechnung hier</h2>
+        <span>Hier können Sie ihre Lohnabrechnungen einsehen</span>
       </div>
-    </main>
+        <div className="grundgeruest-container"></div>
+     </div>
+  </main>
   );
 };
 
