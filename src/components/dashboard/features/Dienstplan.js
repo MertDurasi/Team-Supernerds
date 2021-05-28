@@ -1,12 +1,14 @@
 const Dienstplan = () => {
   return (
     <main>
-      <div className="main__container">
-        <div className="neuigkeiten-container">
-          <h1>Dienstplan hier</h1>
-        </div>
+    <div className="main__container">
+      <div className="headliner">
+        <h2>Dienstplan hier</h2>
+        <span>Hier können Sie ihren Dienstplan einsehen</span>
       </div>
-    </main>
+        <div className="grundgeruest-container"></div>
+     </div>
+  </main>
   );
 };
 

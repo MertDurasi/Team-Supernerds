@@ -1,14 +1,16 @@
 
-import "./Neuigkeiten.css";
+import "./Grundgeruest.css";
 
 const Neuigkeiten = () => {
     return (
       <main>
         <div className="main__container">
-         <div className="neuigkeiten-container">
-           <h1>Neuigkeiten hier</h1>
+          <div className="headliner">
+            <h2>Neuigkeiten hier</h2>
+            <span>Hier finden Sie die aktuellsten Neuigkeiten</span>
+          </div>
+            <div className="grundgeruest-container"></div>
          </div>
-        </div>
       </main>
     );
   };

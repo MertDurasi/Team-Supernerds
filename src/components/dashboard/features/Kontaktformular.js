@@ -1,12 +1,14 @@
 const Kontaktformular = () => {
   return (
     <main>
-      <div className="main__container">
-        <div className="neuigkeiten-container">
-          <h1>Kontaktformular hier</h1>
-        </div>
+    <div className="main__container">
+      <div className="headliner">
+        <h2>Kontaktformular hier</h2>
+        <span>Schreiben Sie ihren Vorgesetzten an</span>
       </div>
-    </main>
+        <div className="grundgeruest-container"></div>
+     </div>
+  </main>
   );
 };
 
