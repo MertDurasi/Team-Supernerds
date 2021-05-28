@@ -17,13 +17,7 @@ main {
   box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
 }
 
-.neuigkeiten-container > h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+.neuigkeiten-container > h1 {
   color: black;
   text-align: center;
 }

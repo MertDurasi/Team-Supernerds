@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import logo from "../../img/login/logo.svg";
 import home_illustration from "../../img/startseite/home_illustration.svg";
-import "./style.css";
+import "./Startseite.css";
 
 class Startseite extends Component {
   state = {};

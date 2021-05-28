@@ -6,14 +6,7 @@ import { Link } from "react-router-dom";
 class Button extends Component {
   state = {};
 
-  constructor(props) {
-    super(props);
-    this.log = this.log.bind(this);
-  }
 
-  log() {
-    console.log(this.props.component.text);
-  }
 
   render() {
     if (this.props.menuOpen) {
