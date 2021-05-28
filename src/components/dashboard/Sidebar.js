@@ -85,8 +85,13 @@ class Sidebar extends React.Component {
             );
           })}
 
-          <div className="sidebar__relinkers">
-            <a href="#">AGB | Datenschutz | Impressum</a>
+          <div className={this.props.menuOpen ? "sidebar__relinkers" : "sidebar__relinkers-closed"}>
+            <p className="sidebar-footer-text">
+              &copy; Workmanager 2021
+            </p>
+            <a href="/infos">AGB |</a>
+            <a href="/infos"> Datenschutz |</a>
+            <a href="/infos"> Impressum</a>
           </div>
         </div>
       </div>

@@ -30,23 +30,18 @@
 
 /* Burger-Menu - Icon */
 
-.sidebar-menu-main {
-  color: green;
+
+
+
+
+.sidebar-footer-text {
+  position: relative;
+  left: 5%;
+  top: 195px;
 }
 
-.sidebar--link {
-  color: white;
-  padding: 10px;
-  border-radius: 3px;
-  margin-bottom: 5px;
-}
-
-.sidebar--link > a {
-  font-size: 22px;
-  text-decoration: none;
-  color: white;
-  padding: 20px;
-  font-weight: 600;
+.sidebar__relinkers-closed {
+  display: none;
 }
 
 .sidebar__relinkers {
@@ -57,10 +52,10 @@
 .sidebar__relinkers > a {
   text-decoration: none;
   color: white;
-  font-weight: 600;
-  position: absolute;
-  bottom: 10px;
-  left: 90px;
+  font-weight: 500;
+  position: relative;
+  left: 0;
+  top: 215px;
 }
 
 .sidebar-responsive {

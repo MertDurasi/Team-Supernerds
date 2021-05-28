@@ -47,13 +47,13 @@
     font-weight: 300;
 }
 
-h1, h2, h3, a {
+#parent > h1, h2, h3, a {
     font-family: 'Volte', Medium, sans-serif;
     font-weight: 300;
     color: black;
 }
 
-h3 {
+#parent h3 {
     font-size: 40px;
     padding-top: 8%;
     margin-bottom: 15px;
@@ -63,18 +63,18 @@ h3 {
     min-height: 100%;
 }
 
-hr {
+#parent hr {
     width: 75px;
     height: 3px;
     background: black;
     margin: 0 auto 40px auto;
 }
 
-a {
+#parent a {
     text-decoration: none;
 }
 
-li {
+#parent li {
     list-style-type: none;
 }
 
@@ -155,7 +155,7 @@ li {
 
 #home-left-container {
     float: left;
-    line-height: 18px;
+    line-height: 40px;
     text-align: left;
     margin: 250px auto auto 300px;
 }
