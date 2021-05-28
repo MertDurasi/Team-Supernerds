@@ -1,6 +1,9 @@
 .btn-text {
   color: white;
-  position: inline;
-  padding-left: 5vh;
-  top: 1vh;
+  padding-left: 3.5vh;
+  top: 0.3vh;
+}
+
+.btn {
+  vertical-align: middle;
 }
