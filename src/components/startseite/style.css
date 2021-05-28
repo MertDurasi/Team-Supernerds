@@ -64,7 +64,7 @@ h3 {
 }
 
 hr {
-    width: 30px;
+    width: 75px;
     height: 3px;
     background: black;
     margin: 0 auto 40px auto;
@@ -92,7 +92,7 @@ li {
 #logo-container {
     width: 150px;
     float: left;
-    margin: 0px 0px 0px 50px;
+    margin: 0px 0px 0px 240px;
     transition: all 300ms;
 }
 
@@ -111,14 +111,14 @@ li {
 
 #nav-container nav {
     float: right;
-    margin: 10px 50px 0px 0px;
+    margin: 10px 270px 0px 0px;
 }
 
 #nav-container nav ul li {
     float: left;
     margin-right: 25px;
     font-family: 'Volte', Medium, sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     color: #666666;
 }
 
@@ -126,6 +126,14 @@ li {
     padding-right: 10px;
     padding-left: 10px;
     transition: all 300ms;
+}
+
+#nav-container nav ul li a {
+    font-size: 16px;
+}
+
+#nav-container nav button {
+    float: left;
 }
 
 #login {
@@ -139,41 +147,84 @@ li {
 /* ===================  Startseite =================== */
 
 #home {
+    width: 100%;
+    height: 700px;
     background: rgb(0, 159, 255);
     background: linear-gradient(90deg, rgba(0, 159, 255, 1) 0%, rgba(0, 101, 255, 1) 59%, rgba(0, 24, 255, 1) 100%);
-    padding: 200px;
-    text-align: left;
 }
 
 #home-left-container {
+    float: left;
     line-height: 18px;
+    text-align: left;
+    margin: 250px auto auto 300px;
 }
 
-
-#home-left-container p, h1, h2{
+#home-left-container p, h1, h2 {
+    font-family: 'Volte', sans-serif;
     color: white;
 }
 
 #home-left-container h1 {
-    font-family: 'Volte', bold, sans-serif;
     font-weight: 600;
     font-size: 45px;
 }
 
 #home-left-container h2 {
+    font-weight: 800;
+    font-size: 35px;
+}
+
+#home-left-container p {
+    font-weight: 500;
+}
+
+#login-button {
+    padding: 8px 20px 8px 20px;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 5px;
+    border-width: thin;
     font-family: 'Volte', bold, sans-serif;
-    font-weight: 600;
-    font-size: 30px;
+    color: white;
+    float: left;
+}
+
+#home-illustration {
+    float: right;
+    width: 700px;
+    margin: 175px 260px auto auto;
 }
 
 /* ===================   Über uns  =================== */
-
-* {
-    box-sizing: border-box;
-}
 
 #about {
     height: 100%;
     background-color: 8D96BD;
     margin: 0;
+    height: 100%;
+}
+
+
+#about h3 {
+    margin-top: 0;
+}
+
+#about hr {
+    height: 2px;
+    background-color: rgba(0, 101, 255, 1);
+    margin-top: 25px;
+}
+
+@media only screen and (max-width: 1850px){
+    #home-left-container p, h1, h2 {
+        font-family: 'Volte', sans-serif;
+        color: 1750;
+    }
+
+    #home-illustration {
+        float: right;
+        width: 555px;
+        margin: 220px 190px auto auto;
+    }
 }
