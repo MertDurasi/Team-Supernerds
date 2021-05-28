@@ -10,7 +10,7 @@ import Einstellungen from "./features/Einstellungen";
 import Kontaktformular from "./features/Kontaktformular";
 import Lohnabrechnung from "./features/Lohnabrechnung";
 import Dienstplan from "./features/Dienstplan";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 const Dashboard = () => {
   const [menuOpen, setMenuOpen] = useState(true);
@@ -37,25 +37,25 @@ const Dashboard = () => {
           openMenu={openMenu}
         />
 
-        <Route path="/dashboard/Neuigkeiten">
+        <Route path="/dashboard/neuigkeiten">
           <Neuigkeiten />
         </Route>
-        <Route path="/dashboard/Dienstplan">
+        <Route path="/dashboard/dienstplan">
           <Dienstplan />
         </Route>
-        <Route path="/dashboard/Urlaubsantrag">
+        <Route path="/dashboard/urlaubsantrag">
           <Urlaubsantrag />
         </Route>
-        <Route path="/dashboard/Lohnabrechnung">
+        <Route path="/dashboard/lohnabrechnung">
           <Lohnabrechnung />
         </Route>
-        <Route path="/dashboard/Downloads">
+        <Route path="/dashboard/downloads">
           <Downloads />
         </Route>
-        <Route path="/dashboard/Kontaktformular">
+        <Route path="/dashboard/kontaktformular">
           <Kontaktformular />
         </Route>
-        <Route path="/dashboard/Einstellungen">
+        <Route path="/dashboard/einstellungen">
           <Einstellungen />
         </Route>
       </Router>
