@@ -6,8 +6,6 @@ import { Link } from "react-router-dom";
 class Button extends Component {
   state = {};
 
-
-
   render() {
     if (this.props.menuOpen) {
       return (

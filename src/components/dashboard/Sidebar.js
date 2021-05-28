@@ -73,7 +73,7 @@ class Sidebar extends React.Component {
             }
           />
         </div>
-        <div className={this.props.menuOpen ? "sidebar-menu-main" : "sidebar-menu-main-closed"}>
+        <div className="sidebar-menu-main">
           {this.menu_objekte.map((field) => {
             return (
               <Button
@@ -85,7 +85,7 @@ class Sidebar extends React.Component {
             );
           })}
 
-          <div className="sidebar__relinkers">
+          <div className={this.props.menuOpen ? "sidebar__relinkers" : "sidebar__relinkers-closed"}>
             <p className="sidebar-footer-text">
               &copy; Workmanager 2021
             </p>

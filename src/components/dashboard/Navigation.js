@@ -13,7 +13,7 @@ const Navigation = ({ menuOpen, openMenu, closeMenu }) => {
         <img width="20" src={abmelden} alt="|||" />
       </div>
       <div className="navigation-left">
-        <a href="#">
+        <a href="/news">
           -- Das Nächste WT-2 Praktikum findet am 9.06 um 14:50 statt! --
         </a>
       </div>

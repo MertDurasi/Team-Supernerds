@@ -29,16 +29,9 @@
 }
 
 /* Burger-Menu - Icon */
-.sidebar-menu-main-closed {
-  display: inline;
-}
 
-.sidebar-menu-main-closed a {
-  display: none;
-}
-.sidebar-menu-main-closed p {
-  display: none;
-}
+
+
 
 
 .sidebar-footer-text {
@@ -47,7 +40,9 @@
   top: 195px;
 }
 
-
+.sidebar__relinkers-closed {
+  display: none;
+}
 
 .sidebar__relinkers {
   padding: 10px;
