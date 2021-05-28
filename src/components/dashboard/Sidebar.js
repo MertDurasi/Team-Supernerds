@@ -63,6 +63,7 @@ class Sidebar extends React.Component {
           }
         >
           <img
+            alt="icon"
             src={hamburger_logo}
             id="sidebar-icon-image"
             onClick={
