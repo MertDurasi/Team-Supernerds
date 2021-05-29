@@ -73,6 +73,7 @@ class Sidebar extends React.Component {
             }
           />
         </div>
+        <hr className="linebreak-menu"></hr>
         <div className="sidebar-menu-main">
           {this.menu_objekte.map((field) => {
             return (
@@ -89,8 +90,8 @@ class Sidebar extends React.Component {
             <p className="sidebar-footer-text">
               &copy; Workmanager 2021
             </p>
-            <a href="/infos">AGB |</a>
-            <a href="/infos"> Datenschutz |</a>
+            <a href="/infos">AGB </a>
+            <a href="/infos"> Datenschutz </a>
             <a href="/infos"> Impressum</a>
           </div>
         </div>

@@ -1,10 +1,46 @@
 .btn-text {
+  font-family: "Volte", Regular, sans-serif;
+  font-size: 1vw;
+  position: relative;
   color: white;
   padding-left: 3.5vh;
-  top: 1vh;
-  left: 18%;
+  top: 1.3vh;
+  left: 20%;
 }
 
+
 .btn {
+  color: white;
+  background-color: #2768e2;
+  border: none;
+  height: 90%;
+  width: 100%;
+  border-radius: 50px;
+  padding: 1vh;
+}
+
+.btn-container {
+  font-family: "Volte", Regular, sans-serif;
+  position: relative;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: menu;
+  height: 5vh;
+}
+
+.logo {
+  height: 90%;
   vertical-align: middle;
+  padding-right: 1vh;
+  position: absolute;
+  left: 10%;
+  width: 25px;
+  bottom: 2%;
+}
+
+
+.btn:hover {
+  background-image: linear-gradient(to right, #0546c0, #2768e2);
 }
