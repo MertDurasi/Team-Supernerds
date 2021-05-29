@@ -1,0 +1,17 @@
+
+
+.downloads-container {
+    background-color: white;
+    position: absolute;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1vh;
+    height: 700px;
+    left: 5%;
+}
+
+.downloads-container h1 {
+    color: black;
+    position: absolute;
+    top: 60%;
+}

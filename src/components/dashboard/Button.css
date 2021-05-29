@@ -1,10 +1,49 @@
+@font-face {font-family: "Nirmala UI Semilight"; src: url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.eot"); src: url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.woff") format("woff"), url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.svg#Nirmala UI Semilight") format("svg"); }
+
+
 .btn-text {
+  font-family: "Nirmala UI Semilight", Regular, sans-serif;
+  font-size: 1vw;
+  position: relative;
   color: white;
   padding-left: 3.5vh;
-  top: 1vh;
-  left: 18%;
+  top: 0.4vh;
+  left: 19%;
 }
 
+
 .btn {
+  color: white;
+  background-color: #0046FE;
+  border: none;
+  height: 70%;
+  width: 100%;
+  border-radius: 50px;
+  padding: 1vh;
+}
+
+.btn-container {
+  font-family: "Nirmala UI Semilight", Regular, sans-serif;
+  position: relative;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: menu;
+  height: 5vh;
+}
+
+.logo {
+  height: 90%;
   vertical-align: middle;
+  padding-right: 1vh;
+  position: absolute;
+  left: 10%;
+  width: 25px;
+  bottom: 2%;
+}
+
+
+.btn:hover {
+  background-image: linear-gradient(to right, #0546c0, #103579);
 }

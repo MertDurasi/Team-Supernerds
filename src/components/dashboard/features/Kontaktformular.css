@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Volte";
+    src: url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.eot");
+    src: url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.eot?#iefix")
+        format("embedded-opentype"),
+      url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.woff2")
+        format("woff2"),
+      url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.woff")
+        format("woff"),
+      url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.ttf")
+        format("truetype"),
+      url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.svg#Volte")
+        format("svg");
+  }
+
+
+.kontaktformular-container {
+    background-color: white;
+    position: absolute;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1vh;
+    height: 700px;
+    left: 5%;
+}
+
+.kontaktformular-container input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    border-bottom: 1px solid #a5aaad;
+    height: 50px;
+}
+
+.kontaktformular-container input::placeholder {
+    text-align: left;
+    padding-left: 10px;
+    color: #a5aaad;
+}
+
+
+
+.betreff-field {
+    top: 13%;
+    left: 25%;
+}
+
+.empfaenger-field {
+    top: 13%;
+    left: 55%;
+
+}
+
+.email-adresse-field {
+    top: 26%;
+    left: 25%;
+
+}
+
+.mobilfunknummer-field {
+    top: 26%;
+    left: 55%;
+
+}
+
+.message-field {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    width: 50%;
+    height: 30%;
+    resize: none;
+    border: 0;
+    outline: 0;
+    background-color: #f1f1f1;
+}
+
+
+.draggable-field {
+    position: absolute;
+    top: 75%;
+    left: 25%;
+    width: 50%;
+    height: 10%;
+    resize: none;
+    outline: 0;
+
+}
+
+.absenden-button {
+    font-family: "Volte", Medium, sans-serif;
+    font-size: 95%;
+    font-weight: 600;
+    position: absolute;
+    top: 90%;
+    left: 42%;
+    width: 13%;
+    height: 6%;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #0046FE;
+    color: white;
+    border: 0;
+}
+
+.absenden-button:hover {
+    background-image: linear-gradient(to right, #0546c0, #103579);
+  }
