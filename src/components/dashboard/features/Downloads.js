@@ -1,5 +1,6 @@
 
 import "./Downloads.css";
+import DownloadVisualComponent from "./Downloads/DownloadVisualComponent.js";
 
 const Downloads = () => {
   return (
@@ -11,7 +12,9 @@ const Downloads = () => {
       </div>
         <div className="grundgeruest-container">
           <div className="downloads-container">
-              <h1>test</h1>
+              <DownloadVisualComponent isFolder={false}></DownloadVisualComponent>
+              <DownloadVisualComponent isFolder={true}></DownloadVisualComponent>
+              <DownloadVisualComponent isFolder={true}></DownloadVisualComponent>
           </div>
         </div>
      </div>
