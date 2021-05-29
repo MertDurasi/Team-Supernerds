@@ -2,6 +2,8 @@
 import "./Downloads.css";
 import DownloadVisualComponent from "./Downloads/DownloadVisualComponent.js";
 
+import { useState } from "react";
+
 const Downloads = () => {
   return (
     <main>
@@ -12,9 +14,9 @@ const Downloads = () => {
       </div>
         <div className="grundgeruest-container">
           <div className="downloads-container">
-              <DownloadVisualComponent isFolder={false}></DownloadVisualComponent>
-              <DownloadVisualComponent isFolder={true}></DownloadVisualComponent>
-              <DownloadVisualComponent isFolder={true}></DownloadVisualComponent>
+              <DownloadVisualComponent firstFile={true} isFolder={false}></DownloadVisualComponent>
+              <DownloadVisualComponent firstFile={false} isFolder={true}></DownloadVisualComponent>
+              <DownloadVisualComponent firstFile={false} isFolder={true}></DownloadVisualComponent>
           </div>
         </div>
      </div>
