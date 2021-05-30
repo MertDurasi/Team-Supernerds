@@ -8,11 +8,16 @@
     height: 100px;
 }
 
+.datetime-downloads {
+    position: relative;
+    top: 25%;
+    left: 85%;
+}
 
 #folder-line-top {
     position: relative;
     width: 100%;
-    top: 30%;
+    top: 25%;
     border: 1px solid #a5aaad;
 }
 

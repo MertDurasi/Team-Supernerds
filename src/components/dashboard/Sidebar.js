@@ -54,7 +54,7 @@ class Sidebar extends React.Component {
   render() {
     return (
       <div
-        className={this.props.menuOpen ? "" : "sidebar-responsive"}
+        className={this.props.menuOpen ? "sidebar-responsive-open" : "sidebar-responsive"}
         id="sidebar-menu"
       >
         <div

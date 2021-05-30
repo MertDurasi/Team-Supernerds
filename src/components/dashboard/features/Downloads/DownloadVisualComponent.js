@@ -4,12 +4,15 @@ import Pdf_logo from "../../../../img/dashboard/PDF.svg";
 import downloads_menu_logo from "../../../../img/dashboard/downloads-menu.svg";
 import "./DownloadVisualComponent.css";
 import React from "react";
+import moment from "moment";
 
 
 // TODO: Später: in Datenbank einfügen, um löschen zu ermöglichen
 // Dieser Komponent dient für den Downloadsbereich.
 
 const DownloadVisualComponent = ( {firstFile, isFolder, file}) => {
+
+
   return (
         <div className="data-component-container">
             <hr id={firstFile ? "folder-line-top": "folder-line-empty"}></hr>
@@ -21,6 +24,7 @@ const DownloadVisualComponent = ( {firstFile, isFolder, file}) => {
                 <a href="/dashboard/downloads">Anzeigen</a>
                 </div>
             </div>
+            <span className="datetime-downloads">{ moment().format("DD.MM.YYYY")}</span>
             <hr id="folder-line-bottom"></hr>
         </div>
   );
