@@ -30,6 +30,8 @@
 .sidebar-titel-closed > img {
   display: inline;
   width: 31px;
+  position: relative;
+  left: 5px;
 }
 
 /* Burger-Menu - Icon */
@@ -84,6 +86,7 @@
   z-index: 99999 !important;
   left: 0 !important;
   position: absolute;
+  width: 40px;
   height: 95.9%;
   margin: 0;
   padding: 0;

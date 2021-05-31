@@ -54,7 +54,7 @@ class Sidebar extends React.Component {
   render() {
     return (
       <div
-        className={this.props.menuOpen ? "sidebar-responsive-open" : "sidebar-responsive"}
+        className={this.props.menuOpen ? "" : "sidebar-responsive"}
         id="sidebar-menu"
       >
         <div
@@ -74,6 +74,7 @@ class Sidebar extends React.Component {
           />
         </div>
         <hr className="linebreak-menu"></hr>
+        
         <div className="sidebar-menu-main">
           {this.menu_objekte.map((field) => {
             return (

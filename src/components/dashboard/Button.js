@@ -24,7 +24,7 @@ class Button extends Component {
         <div className="btn-container">
           <Link className="btn" to={"/dashboard" + this.props.component.route}>
             <img
-              className="logo"
+              className="logo-closed"
               src={this.props.component.logo}
               alt="Error Displaying"
             ></img>

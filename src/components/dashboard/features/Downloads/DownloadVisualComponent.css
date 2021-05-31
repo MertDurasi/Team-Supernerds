@@ -50,13 +50,33 @@
 
 #timesave-downloads-f {
     position: relative;
-    left: 30%;
+    left: 42%;
     font-size: 14px;  
 }
 
 #timesave-downloads-nf {
     position: relative;
-    left: 30%;
+    left: 42%;
     font-size: 14px;
     top: 4.4px;  
+}
+
+@media only screen and (max-width: 1350px){
+    #timesave-downloads-f {
+        left: 36%; 
+    }
+
+    #timesave-downloads-nf {
+        left: 36%;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    #timesave-downloads-f {
+        display: none; 
+    }
+
+    #timesave-downloads-nf {
+        display: none;
+    }
 }

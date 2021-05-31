@@ -43,6 +43,16 @@
   bottom: 2%;
 }
 
+.logo-closed {
+  height: 90%;
+  vertical-align: middle;
+  padding-right: 1vh;
+  position: absolute;
+  left: 10%;
+  width: 30px;
+  bottom: 2%;
+}
+
 
 .btn:hover {
   background-image: linear-gradient(to right, #0546c0, #103579);
