@@ -16,7 +16,6 @@ const Downloads = () => {
           <div className="downloads-container">
               <DownloadVisualComponent firstFile={true} isFolder={false}></DownloadVisualComponent>
               <DownloadVisualComponent firstFile={false} isFolder={true}></DownloadVisualComponent>
-              <DownloadVisualComponent firstFile={false} isFolder={true}></DownloadVisualComponent>
           </div>
         </div>
      </div>

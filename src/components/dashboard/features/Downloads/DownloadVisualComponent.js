@@ -14,19 +14,15 @@ const DownloadVisualComponent = ( {firstFile, isFolder, file}) => {
 
 
   return (
-        <div className="data-component-container">
-            <hr id={firstFile ? "folder-line-top": "folder-line-empty"}></hr>
-            <img id={isFolder ? "dc-isfolder-verify" : "dc-ispdf-verify"} src={isFolder ? Ordner_logo : Pdf_logo} alt="doc"></img>
-            <div className="dropdown-downloads">
-            <img id={isFolder ? "expanded-options-downloads-folder" : "expanded-options-downloads-pdf"} src={downloads_menu_logo} alt="src"></img> 
-            <div className="dropdown-content-downloads">
-                <a href="/dashboard/downloads">Herunterladen</a>
-                <a href="/dashboard/downloads">Anzeigen</a>
-                </div>
-            </div>
-            <span className="datetime-downloads">{ moment().format("DD.MM.YYYY")}</span>
-            <hr id="folder-line-bottom"></hr>
-        </div>
+      
+      <ul className="list-group">
+        <li className={firstFile ? "list-group-item-f" : "list-group-item-nf"}>
+        <img id={isFolder ? "dc-isfolder-verify" : "dc-ispdf-verify"} src={isFolder ? Ordner_logo : Pdf_logo} alt="doc"></img>
+          <span id={isFolder ? "timesave-downloads-f" : "timesave-downloads-nf"}>{moment().format("DD.MM.YYYY")}</span>
+          <img id={isFolder ? "expanded-options-downloads-folder" : "expanded-options-downloads-pdf"} src={downloads_menu_logo} alt="src"></img> 
+        </li>
+      </ul>
+ 
   );
 };
 
