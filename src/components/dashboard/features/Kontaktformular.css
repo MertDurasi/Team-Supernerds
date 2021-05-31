@@ -97,7 +97,7 @@
     position: absolute;
     top: 90%;
     left: 42%;
-    width: 13%;
+    width: 120px;
     height: 6%;
     border-radius: 20px 20px 20px 20px;
     background-color: #0046FE;
@@ -108,3 +108,27 @@
 .absenden-button:hover {
     background-image: linear-gradient(to right, #0546c0, #103579);
   }
+
+
+@media only screen and (max-width: 1250px) {
+    .kontaktformular-container input {
+        background: transparent;
+        position: absolute;
+        color: black;
+        font-size: 11px;
+        border-bottom: 1px solid #a5aaad;
+        height: 60px;
+    }
+}
+
+
+@media only screen and (max-width: 650px) {
+    .kontaktformular-container input {
+        background: transparent;
+        position: absolute;
+        color: black;
+        font-size: 7px;
+        border-bottom: 1px solid #a5aaad;
+        height: 60px;
+    }
+}

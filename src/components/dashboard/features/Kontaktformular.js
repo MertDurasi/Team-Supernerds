@@ -1,7 +1,13 @@
-
+import React, { Component, Fragment } from "react";
 import "./Kontaktformular.css";
+import DragDropFeature from "./Kontaktformular/DragDropFeature.js";
+import Dropzone from "react-dropzone";
 
-const Kontaktformular = () => {
+class Kontaktformular extends Component {
+
+
+  
+  render() {
   return (
     <main>
     <div className="main__container">
@@ -16,13 +22,16 @@ const Kontaktformular = () => {
               <input className="email-adresse-field" placeholder="Ihre E-Mail-Adresse"></input>
               <input className="mobilfunknummer-field" placeholder="Ihre Mobilfunknummer"></input>
               <textarea className="message-field" placeholder="Hier kommt Ihre Nachricht rein"></textarea>
-              <textarea className="draggable-field" placeholder="Drag n Drop"></textarea>
+              <div className="DragDropFeature">
+                <DragDropFeature></DragDropFeature>
+              </div>
               <button className="absenden-button" >Absenden</button>
           </div>
         </div>
      </div>
   </main>
   );
+  }
 };
 
 export default Kontaktformular;
