@@ -22,9 +22,7 @@ class Kontaktformular extends Component {
               <input className="email-adresse-field" placeholder="Ihre E-Mail-Adresse"></input>
               <input className="mobilfunknummer-field" placeholder="Ihre Mobilfunknummer"></input>
               <textarea className="message-field" placeholder="Hier kommt Ihre Nachricht rein"></textarea>
-              <div className="DragDropFeature">
-                <DragDropFeature></DragDropFeature>
-              </div>
+              <DragDropFeature></DragDropFeature>
               <button className="absenden-button" >Absenden</button>
           </div>
         </div>
