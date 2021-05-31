@@ -75,7 +75,7 @@
     resize: none;
     border: 0;
     outline: 0;
-    background-color: #f1f1f1;
+    background-color: hsl(0, 1%, 98%);
 }
 
 
@@ -97,7 +97,7 @@
     position: absolute;
     top: 90%;
     left: 42%;
-    width: 13%;
+    width: 120px;
     height: 6%;
     border-radius: 20px 20px 20px 20px;
     background-color: #0046FE;
@@ -108,3 +108,60 @@
 .absenden-button:hover {
     background-image: linear-gradient(to right, #0546c0, #103579);
   }
+
+
+@media only screen and (max-width: 1250px) {
+    .kontaktformular-container input {
+        background: transparent;
+        position: absolute;
+        color: black;
+        font-size: 11px;
+        border-bottom: 1px solid #a5aaad;
+        height: 60px;
+    }
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+
+    .kontaktformular-container input {
+        background: transparent;
+        position: absolute;
+        color: black;
+        font-size: 12px;
+        border-bottom: 1px solid #a5aaad;
+        height: 60px;
+    }
+
+    .betreff-field {
+        top: 10%;
+        left: 30%;
+    }
+    
+    .empfaenger-field {
+        top: 20%;
+        left: 30%;
+    
+    }
+    
+    .email-adresse-field {
+        top: 30%;
+        left: 30%;
+    
+    }
+    
+    .mobilfunknummer-field {
+        top: 40%;
+        left: 30%;
+    
+    }
+    .message-field {
+        top: 50%;
+    }
+
+    .absenden-button {
+        left: 35%;
+    }
+}

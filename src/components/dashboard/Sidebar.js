@@ -74,6 +74,7 @@ class Sidebar extends React.Component {
           />
         </div>
         <hr className="linebreak-menu"></hr>
+        
         <div className="sidebar-menu-main">
           {this.menu_objekte.map((field) => {
             return (

@@ -1,6 +1,6 @@
 import "./Navigation.css";
 import profil_logo from "../../img/dashboard/Profil.svg";
-import abmelden from "../../img/dashboard/Abmelden.svg";
+import menu_logo from "../../img/dashboard/downloads-menu.svg";
 /* hamburger menu momentan schlecht, da weiß auf weiß */
 
 const Navigation = ({ menuOpen, openMenu, closeMenu }) => {
@@ -10,7 +10,7 @@ const Navigation = ({ menuOpen, openMenu, closeMenu }) => {
         className="navigation-icon"
         onClick={menuOpen ? () => closeMenu() : () => openMenu()}
       >
-        <img width="20" src={abmelden} alt="|||" />
+        <img width="20" src={menu_logo} alt="|||" />
       </div>
       <div className="navigation-left">
         <a href="/news">

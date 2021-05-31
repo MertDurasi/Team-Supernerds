@@ -6,6 +6,8 @@
   background: #0046FE;
   grid-area: menu;
   overflow-y: auto;
+  overflow-x: hidden;
+  max-width: 100%;
   padding: 20px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -20,16 +22,18 @@
 }
 
 .sidebar-titel-open > img {
-  position: absolute;
+  position: relative;
   width: 30px;
   height: auto;
-  top: 3%;
-  right: 86%;
+  bottom: 70px;
+  left: 100px;
 }
 
 .sidebar-titel-closed > img {
   display: inline;
   width: 31px;
+  position: relative;
+  left: 5px;
 }
 
 /* Burger-Menu - Icon */
@@ -40,10 +44,10 @@
 
 .sidebar-footer-text {
   font-family: "Nirmala UI Semilight", Regular, sans-serif;
-  font-size: 13px;
-  position: absolute;
-  left: 4.1%;
-  top: 92.6%;
+  font-size: 11px;
+  position: relative;
+  left: 40px;
+  top: 293px;
 }
 
 .sidebar__relinkers-closed {
@@ -57,13 +61,13 @@
 
 .sidebar__relinkers > a {
   font-family: "Nirmala UI Semilight", Regular, sans-serif;
-  font-size: 13px;
+  font-size: 11px;
   text-decoration: none;
   color: white;
   font-weight: 500;
   position: relative;
   left: 8%;
-  top: 333px;
+  top: 300px;
 }
 
 .sidebar__relinkers a {
@@ -72,10 +76,10 @@
 
 
 .linebreak-menu {
-  width: 11%;
-  position: absolute;
-  top: 12%;
-  left: 2.3%;
+  width: 75%;
+  position: relative;
+  bottom: 3%;
+  left: 11%;
 }
 
 
@@ -84,6 +88,7 @@
   z-index: 99999 !important;
   left: 0 !important;
   position: absolute;
+  width: 40px;
   height: 95.9%;
   margin: 0;
   padding: 0;
@@ -94,6 +99,26 @@
   display: none;
 }
 
+@media only screen and (max-width: 1750px) {
+  .sidebar-titel-open > img  {
+    left: 70px;
+  }
+}
+
+@media only screen and (max-width: 1550px) {
+  .sidebar-titel-open > img  {
+    left: 40px;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .sidebar-footer-text {
+    left: 10px;
+  }
+  .sidebar-titel-open > img  {
+    left: 5px;
+  }
+}
 
 @media only screen and (max-width: 1150px) {
   #sidebar-menu {
