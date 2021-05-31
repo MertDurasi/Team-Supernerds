@@ -1,3 +1,5 @@
+@font-face {font-family: "Nirmala UI Semilight"; src: url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.eot"); src: url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.woff") format("woff"), url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.svg#Nirmala UI Semilight") format("svg"); }
+
 
 
 .list-group {
@@ -50,24 +52,39 @@
 
 #timesave-downloads-f {
     position: relative;
-    left: 42%;
+    left: 22%;
     font-size: 14px;  
 }
 
 #timesave-downloads-nf {
     position: relative;
-    left: 42%;
+    left: 22%;
     font-size: 14px;
     top: 4.4px;  
 }
 
+#namefv-downloads-f {
+    font-family: "Nirmala UI Semilight", Regular, sans-serif;
+    font-size: 25px;
+    position: relative;
+    right: 18.1%;
+    bottom: 3px;
+}
+
+#namefv-downloads-nf {
+    font-family: "Nirmala UI Semilight", Regular, sans-serif;
+    font-size: 25px;
+    position: relative;
+    right: 18%;
+}
+
 @media only screen and (max-width: 1350px){
     #timesave-downloads-f {
-        left: 36%; 
+        left: 15%; 
     }
 
     #timesave-downloads-nf {
-        left: 36%;
+        left: 15%;
     }
 }
 
@@ -78,5 +95,23 @@
 
     #timesave-downloads-nf {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    #dc-ispdf-verify {
+        display: none;
+    }
+    
+    #dc-isfolder-verify {
+        display: none;
+    }
+
+    #namefv-downloads-f {
+        right: 0;
+    }
+    
+    #namefv-downloads-nf {
+        right: 0;
     }
 }
