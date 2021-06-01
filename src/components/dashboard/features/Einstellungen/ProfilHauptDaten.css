@@ -2,11 +2,20 @@
 .profile-first-container {
     position: relative;
     display: inline-block;
-    background-color: green;
+    background-color: white;
     width: 50%;
     height: 100%;
 }
 
 .profile-first-container h1 {
     color: black;
+}
+
+
+#horizontal-trenner-e {
+    position: absolute;
+    left: 99%;
+    top: 0%;
+    background-color: gray;
+    border: 3px solid gray;
 }
