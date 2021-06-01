@@ -12,6 +12,12 @@
 }
 
 
+.profile-input-container {
+    position: absolute;
+    top: 50%;
+    padding: 10px;
+}
+
 #horizontal-trenner-e {
     position: absolute;
     left: 99%;
