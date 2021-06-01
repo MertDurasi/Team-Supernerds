@@ -1,0 +1,12 @@
+
+.profile-first-container {
+    position: relative;
+    display: inline-block;
+    background-color: green;
+    width: 50%;
+    height: 100%;
+}
+
+.profile-first-container h1 {
+    color: black;
+}

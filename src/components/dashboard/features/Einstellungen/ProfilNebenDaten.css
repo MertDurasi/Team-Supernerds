@@ -1,0 +1,13 @@
+
+.profile-second-container {
+    position: relative;
+    display: inline-block;
+    background-color: yellow;
+    width: 50%;
+    height: 100%;
+    
+}
+
+.profile-second-container h1 {
+    color: black;
+}

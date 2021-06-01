@@ -20,7 +20,13 @@ const DownloadVisualComponent = ( {firstFile, isFolder, nameForVis }) => {
         <img id={isFolder ? "dc-isfolder-verify" : "dc-ispdf-verify"} src={isFolder ? Ordner_logo : Pdf_logo} alt="doc"></img>
         <span id={isFolder ? "namefv-downloads-f" : "namefv-downloads-nf"}>{nameForVis}</span>
         <span id={isFolder ? "timesave-downloads-f" : "timesave-downloads-nf"}>{moment().format("DD.MM.YYYY")}</span>
-        <img id={isFolder ? "expanded-options-downloads-folder" : "expanded-options-downloads-pdf"} src={downloads_menu_logo} alt="src"></img> 
+        <div className="dropdown-helper-downloads">
+        <img id={isFolder ? "expanded-options-downloads-folder" : "expanded-options-downloads-pdf"} src={downloads_menu_logo} alt="src"></img>
+        <div className="dropdown-content-downloads">
+            <a href="/dashboard/einstellungen">Herunterladen</a>
+            <a href="/dashboard/abmelden">Anzeigen</a>
+          </div> 
+        </div>
         </li>
       </ul>
  

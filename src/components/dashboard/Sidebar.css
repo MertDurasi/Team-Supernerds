@@ -42,35 +42,27 @@
 
 
 
-.sidebar-footer-text {
-  font-family: "Nirmala UI Semilight", Regular, sans-serif;
-  font-size: 11px;
-  position: relative;
-  left: 40px;
-  top: 293px;
-}
-
 .sidebar__relinkers-closed {
   display: none;
 }
 
 .sidebar__relinkers {
-  padding: 10px;
-  color: white;
-}
-
-.sidebar__relinkers > a {
   font-family: "Nirmala UI Semilight", Regular, sans-serif;
   font-size: 11px;
-  text-decoration: none;
   color: white;
-  font-weight: 500;
   position: relative;
-  left: 8%;
-  top: 300px;
+  top: 28vh;
+}
+
+.sidebar__relinkers .sidebar-footer-text {
+  position: relative;
+  left: 6.5vh;
+
 }
 
 .sidebar__relinkers a {
+  position: relative;
+  left: 3vh;
   margin: 0 5px 0 5px;
 }
 
@@ -111,10 +103,13 @@
   }
 }
 
-@media only screen and (max-width: 1350px) {
-  .sidebar-footer-text {
-    left: 10px;
+@media only screen and (max-width: 1400px) {
+  .sidebar__relinkers .sidebar-footer-text {
+    left: 1vh;
   }
+}
+
+@media only screen and (max-width: 1350px) {
   .sidebar-titel-open > img  {
     left: 5px;
   }

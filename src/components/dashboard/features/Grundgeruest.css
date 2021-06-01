@@ -16,7 +16,7 @@ main {
   width: 90%;
   margin: 0 auto;
   margin-top: 5vh;
-  height: 780px;
+  height: 750px;
   left: 5%;
   border-radius: 10px 10px 10px 10px;
   box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
@@ -53,4 +53,5 @@ main {
     gap: 10px;
     margin-bottom: 0;
   }
+
 }
