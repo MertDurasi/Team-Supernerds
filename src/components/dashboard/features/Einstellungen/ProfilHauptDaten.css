@@ -7,10 +7,32 @@
     height: 100%;
 }
 
-.profile-first-container h1 {
-    color: black;
+
+/* TODO: Add image */
+.wrapper-for-img {
+    position: absolute;
+    left: 25%;
+    top: 2%;
+    height: 12vh;
+    width: 12vh;
+    border: 5px solid black;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
+/* TODO: Add Image ebenfalls hier */
+.pfp-upload-img {
+    position: absolute;
+    bottom: 0;
+    outline: none;
+    left: 50%;
+    width: 100%;
+    color: transparent;
+    box-sizing: border-box;
+    padding: 15px 120px;
+    cursor: pointer;
+    transition: 0.5s;
+}
 
 .profile-input-container {
     position: absolute;
