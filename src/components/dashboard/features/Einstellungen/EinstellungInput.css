@@ -8,14 +8,30 @@
     background-color: rgb(212, 234, 240);
     border: 1px solid #a5aaad;
     border-radius: 5px 5px 5px 5px;
-    margin: auto;
+    margin-top: 10px;
     outline: 0;
 }
 
 
 
 .field-strasse-container input{
-    width: 470%;
+    width: 265%;
+}
+
+.field-oldpw-container input{
+    width: 200%;
 }
 
 
+.field-newpw-container input{
+    width: 200%;
+}
+
+
+.field-newpwagain-container input{
+    width: 150%;
+}
+
+.field-email-container input{
+    width: 200%;
+}

@@ -15,18 +15,12 @@
 
 
 
-.profile-first-container {
-    position: relative;
-    background-color: white;
-    width: 50%;
-    height: 100%;
-}
 
 
 /* TODO: Add image */
 .wrapper-for-img {
     position: absolute;
-    left: 35.4%;
+    left: 15.4%;
     top: 2%;
     height: 120px;
     width: 120px;
@@ -53,19 +47,10 @@
 
 
 
-.vorname-field {
-    position: absolute;
-    top: 40%;
-    height: 5%;   
-}
-
-.nachname-field {
-    position: absolute;
-}
 
 #horizontal-trenner-e {
     position: absolute;
-    left: 99%;
+    left: 49%;
     top: 0%;
     background-color: #a5aaad;
     border: 1px solid #a5aaad;
@@ -77,7 +62,7 @@
     font-weight: 600;
     position: absolute;
     top: 75%;
-    left: 32%;
+    left: 13%;
     width: 160px;
     height: 6%;
     border-radius: 20px 20px 20px 20px;
@@ -88,4 +73,50 @@
 
 #speichern-einstellungen-btn:hover {
     background-image: linear-gradient(to right, #0546c0, #103579);
+}
+
+#pwchange-einstellungen-btn {
+    font-family: "Volte", Medium, sans-serif;
+    font-size: 95%;
+    font-weight: 600;
+    position: absolute;
+    top: 40%;
+    left: 68%;
+    width: 160px;
+    height: 6%;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #0046FE;
+    color: white;
+    border: 0;
+}
+
+#pwchange-einstellungen-btn:hover {
+    background-image: linear-gradient(to right, #0546c0, #103579);
+}
+
+#emailchange-einstellungen-btn {
+    font-family: "Volte", Medium, sans-serif;
+    font-size: 95%;
+    font-weight: 600;
+    position: absolute;
+    top: 75%;
+    left: 68%;
+    width: 160px;
+    height: 6%;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #0046FE;
+    color: white;
+    border: 0;
+}
+
+#emailchange-einstellungen-btn:hover {
+    background-image: linear-gradient(to right, #0546c0, #103579);
+}
+
+#linebreaker-rightside-einstellungen {
+    position: absolute;
+    top: 50%;
+    left: 49%;
+    border: 1px solid #a5aaad;   
+    width: 50%;
 }
