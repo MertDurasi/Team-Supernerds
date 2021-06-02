@@ -1,0 +1,21 @@
+
+#basic-input-einstellungen {
+    font-size: 15px;
+    position: relative;
+    margin-top: 10px;
+    padding-top: 10px;
+    left: 0;   
+    background-color: rgb(212, 234, 240);
+    border: 1px solid #a5aaad;
+    border-radius: 5px 5px 5px 5px;
+    margin: auto;
+    outline: 0;
+}
+
+
+
+.field-strasse-container input{
+    width: 470%;
+}
+
+
