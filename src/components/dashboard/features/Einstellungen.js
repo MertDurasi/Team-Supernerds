@@ -1,7 +1,6 @@
 
 import "./Einstellungen.css";
 import ProfilHauptDaten from "./Einstellungen/ProfilHauptDaten.js";
-import ProfilNebenDaten from "./Einstellungen/ProfilNebenDaten";
 
 const Einstellungen = () => {
   return (
@@ -14,7 +13,6 @@ const Einstellungen = () => {
         <div className="grundgeruest-container"></div>
         <div className="einstellungen-container">
           <ProfilHauptDaten></ProfilHauptDaten>
-          <ProfilNebenDaten></ProfilNebenDaten>
         </div>
      </div>
   </main>

@@ -1,49 +1,122 @@
+@font-face {
+    font-family: "Volte";
+    src: url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.eot");
+    src: url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.eot?#iefix")
+        format("embedded-opentype"),
+      url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.woff2")
+        format("woff2"),
+      url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.woff")
+        format("woff"),
+      url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.ttf")
+        format("truetype"),
+      url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.svg#Volte")
+        format("svg");
+  }
 
-.profile-first-container {
-    position: relative;
-    display: inline-block;
-    background-color: white;
-    width: 50%;
-    height: 100%;
-}
+
+
 
 
 /* TODO: Add image */
 .wrapper-for-img {
     position: absolute;
-    left: 25%;
+    left: 15.4%;
     top: 2%;
-    height: 12vh;
-    width: 12vh;
-    border: 5px solid black;
+    height: 120px;
+    width: 120px;
+    border: 0;
     border-radius: 50%;
     overflow: hidden;
+    background-image: url("../../../../img/dashboard/ProfilEinstellungen.svg");
+    background-size: 120px;
 }
 
 /* TODO: Add Image ebenfalls hier */
 .pfp-upload-img {
     position: absolute;
-    bottom: 0;
+    bottom: -0.5vh;
     outline: none;
-    left: 50%;
-    width: 100%;
-    color: transparent;
-    box-sizing: border-box;
-    padding: 15px 120px;
+    left: 45%;
+    width: 50%;
+    padding: 15px 60px;
     cursor: pointer;
     transition: 0.5s;
+    overflow: hidden;
+    background-image: url("../../../../img/dashboard/editellipse.svg");
 }
 
-.profile-input-container {
-    position: absolute;
-    top: 50%;
-    padding: 10px;
-}
+
+
 
 #horizontal-trenner-e {
     position: absolute;
-    left: 99%;
+    left: 49%;
     top: 0%;
-    background-color: gray;
-    border: 3px solid gray;
+    background-color: #a5aaad;
+    border: 1px solid #a5aaad;
+}
+
+#speichern-einstellungen-btn {
+    font-family: "Volte", Medium, sans-serif;
+    font-size: 95%;
+    font-weight: 600;
+    position: absolute;
+    top: 75%;
+    left: 13%;
+    width: 160px;
+    height: 6%;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #0046FE;
+    color: white;
+    border: 0;
+}
+
+#speichern-einstellungen-btn:hover {
+    background-image: linear-gradient(to right, #0546c0, #103579);
+}
+
+#pwchange-einstellungen-btn {
+    font-family: "Volte", Medium, sans-serif;
+    font-size: 95%;
+    font-weight: 600;
+    position: absolute;
+    top: 40%;
+    left: 68%;
+    width: 160px;
+    height: 6%;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #0046FE;
+    color: white;
+    border: 0;
+}
+
+#pwchange-einstellungen-btn:hover {
+    background-image: linear-gradient(to right, #0546c0, #103579);
+}
+
+#emailchange-einstellungen-btn {
+    font-family: "Volte", Medium, sans-serif;
+    font-size: 95%;
+    font-weight: 600;
+    position: absolute;
+    top: 75%;
+    left: 68%;
+    width: 160px;
+    height: 6%;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #0046FE;
+    color: white;
+    border: 0;
+}
+
+#emailchange-einstellungen-btn:hover {
+    background-image: linear-gradient(to right, #0546c0, #103579);
+}
+
+#linebreaker-rightside-einstellungen {
+    position: absolute;
+    top: 50%;
+    left: 49%;
+    border: 1px solid #a5aaad;   
+    width: 50%;
 }
