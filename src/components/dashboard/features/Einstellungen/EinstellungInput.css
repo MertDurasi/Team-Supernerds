@@ -3,7 +3,7 @@
     font-size: 15px;
     position: relative;
     margin-top: 10px;
-    padding-top: 10px;
+    height: 50%;
     left: 0;   
     background-color: rgb(212, 234, 240);
     border: 1px solid #a5aaad;
@@ -34,4 +34,42 @@
 
 .field-email-container input{
     width: 200%;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .field-vorname-container {
+        top: 25% !important;
+        left: 10% !important;
+    }
+
+    .field-nachname-container {
+        top: 37% !important;
+        left: 10% !important;
+    }
+
+
+    .field-strasse-container {
+        top: 47% !important;
+        left: 10% !important;
+    }
+
+
+    .field-plz-container {
+        top: 59% !important;
+        left: 10% !important;
+    }
+
+    input {
+        width: 145% !important;
+    }
+
+    .field-stadt-container {
+        top: 71% !important;
+        left: 10% !important;
+    }
+
+    #speichern-einstellungen-btn {
+        top: 85%; 
+    }
 }
