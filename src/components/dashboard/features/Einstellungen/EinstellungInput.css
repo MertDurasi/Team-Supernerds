@@ -71,5 +71,146 @@
 
     #speichern-einstellungen-btn {
         top: 85%; 
+        left: 10%;
     }
+}
+
+@media only screen and (max-width: 850px) {
+
+    #speichern-einstellungen-btn {
+        width: 100px;
+    }
+
+    #pwchange-einstellungen-btn {
+        top: 42%;
+        left: 60%;
+        width: 100px;
+    }
+    #emailchange-einstellungen-btn {
+        left: 60%;
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .grundgeruest-container {
+        height: 1100px;
+    }
+
+    .einstellungen-container {
+        height: 900px;
+    }
+
+    .field-vorname-container {
+        top: 0 !important;
+        left: 20% !important;
+    }
+
+    .field-nachname-container {
+        top: 7% !important;
+        left: 20% !important;
+    }
+
+
+    .field-strasse-container {
+        top: 14% !important;
+        left: 20% !important;
+    }
+
+
+    .field-plz-container {
+        top: 21% !important;
+        left: 20% !important;
+    }
+
+    .field-stadt-container {
+        top: 28% !important;
+        left: 20% !important;
+    }
+
+    
+    #speichern-einstellungen-btn {
+        top: 35%;
+        width: 150px;
+        height: 50px;
+        left: 22%;
+    }
+
+    .field-oldpw-container {
+        top: 42% !important;
+        left: 20% !important;
+    }
+
+    .field-newpw-container {
+        top: 49% !important;
+        left: 20% !important;
+    }
+
+    
+    .field-newpwagain-container {
+        top: 56% !important;
+        left: 20% !important;
+    }
+
+    #pwchange-einstellungen-btn {
+        top: 67%;
+        left: 22%;
+        width: 150px;
+        height: 50px;
+    }
+
+    .field-email-container {
+        top: 74% !important;
+        left: 20% !important;
+    }
+
+    #emailchange-einstellungen-btn {
+        top: 84%;
+        left: 22%;
+        width: 150px;
+        height: 50px;
+    }
+
+
+    input {
+        width: 300% !important;
+        height: 25% !important;
+    }
+
+
+    .wrapper-for-img {
+        display: none;
+    }
+
+    hr {
+        display: none;
+    }
+   
+    .field-newpwagain-container input{
+        width: 225% !important;
+    }
+
+}
+
+@media only screen and (max-width: 300px) {
+
+    #speichern-einstellungen-btn {
+        left: 15%;
+        width: 100px;
+        height: 50px;
+    }
+
+    #pwchange-einstellungen-btn {
+        left: 15%;
+        width: 100px;
+        height: 50px;
+    }
+
+    #emailchange-einstellungen-btn {
+        left: 15%;
+        width: 100px;
+        height: 50px;
+    }
+
 }
