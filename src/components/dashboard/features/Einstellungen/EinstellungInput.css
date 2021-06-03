@@ -37,7 +37,7 @@
 }
 
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1250px) {
     .field-vorname-container {
         top: 25% !important;
         left: 10% !important;
@@ -139,30 +139,30 @@
     }
 
     .field-newpw-container {
-        top: 49% !important;
+        top: 51% !important;
         left: 20% !important;
     }
 
     
     .field-newpwagain-container {
-        top: 56% !important;
+        top: 59% !important;
         left: 20% !important;
     }
 
     #pwchange-einstellungen-btn {
-        top: 67%;
+        top: 70%;
         left: 22%;
         width: 150px;
         height: 50px;
     }
 
     .field-email-container {
-        top: 74% !important;
+        top: 78% !important;
         left: 20% !important;
     }
 
     #emailchange-einstellungen-btn {
-        top: 84%;
+        top: 89%;
         left: 22%;
         width: 150px;
         height: 50px;
