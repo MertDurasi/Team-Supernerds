@@ -10,6 +10,9 @@ const Neuigkeiten = () => {
             <span>Hier finden Sie die aktuellsten Neuigkeiten</span>
           </div>
             <div className="grundgeruest-container"></div>
+            <div className="neuigkeiten-container">
+          
+          </div>
          </div>
       </main>
     );

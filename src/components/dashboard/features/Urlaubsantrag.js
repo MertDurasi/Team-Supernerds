@@ -9,6 +9,9 @@ const Urlaubsantrag = () => {
         <span>Hier können Sie einen Urlaubsantrag einreichen</span>
       </div>
         <div className="grundgeruest-container"></div>
+        <div className="urlaubsantrag-container">
+          
+          </div>
      </div>
   </main>
   );

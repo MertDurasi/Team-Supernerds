@@ -7,6 +7,9 @@ const Lohnabrechnung = () => {
         <span>Hier können Sie ihre Lohnabrechnungen einsehen</span>
       </div>
         <div className="grundgeruest-container"></div>
+        <div className="lohnabrechnungen-container">
+          
+          </div>
      </div>
   </main>
   );

@@ -3,7 +3,7 @@ import profil_logo from "../../img/dashboard/Profil.svg";
 import menu_logo from "../../img/dashboard/downloads-menu.svg";
 import lpfeil_logo from "../../img/dashboard/Pfeil nach links.svg";
 import rpfeil_logo from "../../img/dashboard/Pfeil nach rechts.svg";
-/* hamburger menu momentan schlecht, da weiß auf weiß */
+
 
 const Navigation = ({ menuOpen, openMenu, closeMenu }) => {
   return (
