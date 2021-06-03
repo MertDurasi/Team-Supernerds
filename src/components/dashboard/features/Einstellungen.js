@@ -10,10 +10,11 @@ const Einstellungen = () => {
         <h2>Einstellungen</h2>
         <span>Hier können Sie änderungen an ihrem Profil vornehmen</span>
       </div>
-        <div className="grundgeruest-container"></div>
-        <div className="einstellungen-container">
-          <ProfilHauptDaten></ProfilHauptDaten>
-        </div>
+        <div className="grundgeruest-container">
+          <div className="einstellungen-container">
+            <ProfilHauptDaten></ProfilHauptDaten>
+          </div>
+      </div>
      </div>
   </main>
   );

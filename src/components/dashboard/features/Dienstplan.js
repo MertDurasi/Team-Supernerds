@@ -6,9 +6,10 @@ const Dienstplan = () => {
         <h2>Dienstplan hier</h2>
         <span>Hier können Sie ihren Dienstplan einsehen</span>
       </div>
-        <div className="grundgeruest-container"></div>
-        <div className="dienstplan-container">
-          
+        <div className="grundgeruest-container">
+          <div className="dienstplan-container">
+
+          </div>
         </div>
      </div>
   </main>
