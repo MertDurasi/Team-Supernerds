@@ -6,7 +6,6 @@ import "./DownloadVisualComponent.css";
 import React from "react";
 import moment from "moment";
 
-
 // TODO: Später: in Datenbank einfügen, um löschen zu ermöglichen
 // Dieser Komponent dient für den Downloadsbereich.
 

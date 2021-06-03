@@ -36,10 +36,6 @@
   left: 5px;
 }
 
-/* Burger-Menu - Icon */
-
-
-
 
 
 .sidebar__relinkers-closed {
@@ -87,6 +83,7 @@
 }
 
 
+
 .sidebar-responsive hr {
   display: none;
 }
@@ -117,12 +114,6 @@
 
 @media only screen and (max-width: 1150px) {
   #sidebar-menu {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  #sidebar {
     display: none;
   }
 }

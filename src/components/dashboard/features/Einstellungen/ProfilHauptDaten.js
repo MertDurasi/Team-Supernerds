@@ -8,6 +8,7 @@ const ProfilHauptDaten = () => {
   return (
         <div className="profile-first-container">
             <div className="wrapper-for-img">
+              <span id="change-text-einstellungen">Change</span>
             <input type="file" className="pfp-upload-img"></input>
             </div>
             <EinstellungInput text="Vorname" identifier="field-vorname-container" styling={{position: "absolute", top: "30%", left: "0", width: "15%", height: "10%"}}/>

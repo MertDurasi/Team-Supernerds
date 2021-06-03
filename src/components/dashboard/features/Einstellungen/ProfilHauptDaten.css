@@ -32,20 +32,36 @@
 }
 
 /* TODO: Add Image ebenfalls hier */
+
+
 .pfp-upload-img {
-    position: absolute;
-    bottom: -0.5vh;
-    outline: none;
-    left: 45%;
-    width: 50%;
-    padding: 15px 60px;
-    cursor: pointer;
-    transition: 0.5s;
-    overflow: hidden;
-    background-image: url("../../../../img/dashboard/editellipse.svg");
+    display: none;
 }
 
+#change-text-einstellungen {
+    display: none;
+}
 
+.wrapper-for-img:hover .pfp-upload-img {
+    display: inline;
+    position: absolute;
+    bottom: -20%;
+    outline: none;
+    left: 0;
+    width: 50%;
+    padding: 15px 150px;
+    cursor: pointer;
+    background-color: #a5aaad;
+}
+
+.wrapper-for-img:hover #change-text-einstellungen {
+    display: inline;
+    position: absolute;
+    font-size: 14px;
+    bottom: 8%;
+    left: 30%;
+    z-index: 2;
+}
 
 
 #horizontal-trenner-e {
