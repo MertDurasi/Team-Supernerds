@@ -11,7 +11,7 @@
     margin: 10px auto 0;
     padding: 10px;
     box-sizing: border-box;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .list-group .list-group-item-f  {
@@ -106,6 +106,7 @@
     font-size: 25px;
     position: relative;
     right: 18%;
+    bottom: 3px;
 }
 
 @media only screen and (max-width: 1350px){
