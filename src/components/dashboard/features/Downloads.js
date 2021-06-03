@@ -2,9 +2,10 @@
 import "./Downloads.css";
 import DownloadVisualComponent from "./Downloads/DownloadVisualComponent.js";
 
-import { useState } from "react";
 
 const Downloads = () => {
+
+
   return (
     <main>
     <div className="main__container">

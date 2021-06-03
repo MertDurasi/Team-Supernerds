@@ -6,19 +6,43 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 30px 0 30px;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid #a5aaad;
 }
 
 .navigation-icon {
   display: none;
 }
 
+.navigation-left {
+  position: relative;
+  height: 30px;
+  width: 650px;
+  border: 1px solid #a5aaad;
+  text-align: center;
+  left: 120px;
+  border-radius: 20px 20px 20px 20px;
+}
+
 .navigation-left > a {
+  position: relative;
   margin-right: 30px;
   text-decoration: none;
   color: #a5aaad;
   font-size: 15px;
   font-weight: 700;
+  top: 0.5vh;
+}
+
+#change-news-left {
+  position: absolute;
+  left: 0;
+  top: 20%;
+}
+
+#change-news-right {
+  position: absolute;
+  right: 0;
+  top: 20%;
 }
 
 .navigation-right {
@@ -81,6 +105,14 @@
 .dropdown:hover .dropbtn {
   background-color: white;
 }
+
+@media only screen and (max-width: 1350px) {
+  .navigation-left {
+    left: 1px;
+    width: 600px;
+  }
+}
+
 
 @media only screen and (max-width: 1150px) {
   .navigation-icon {

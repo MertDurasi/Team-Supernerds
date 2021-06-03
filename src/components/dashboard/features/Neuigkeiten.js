@@ -9,7 +9,11 @@ const Neuigkeiten = () => {
             <h2>Neuigkeiten hier</h2>
             <span>Hier finden Sie die aktuellsten Neuigkeiten</span>
           </div>
-            <div className="grundgeruest-container"></div>
+            <div className="grundgeruest-container">
+              <div className="neuigkeiten-container">
+          
+              </div>
+            </div>
          </div>
       </main>
     );

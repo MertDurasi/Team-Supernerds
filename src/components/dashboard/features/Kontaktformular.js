@@ -12,7 +12,7 @@ class Kontaktformular extends Component {
     <main>
     <div className="main__container">
       <div className="headliner">
-        <h2>Kontaktformular hier</h2>
+        <h2>Kontaktformular</h2>
         <span>Schreiben Sie ihren Vorgesetzten an</span>
       </div>
         <div className="grundgeruest-container">
