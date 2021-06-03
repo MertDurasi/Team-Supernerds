@@ -60,10 +60,6 @@
         left: 10% !important;
     }
 
-    input {
-        width: 145% !important;
-    }
-
     .field-stadt-container {
         top: 71% !important;
         left: 10% !important;
@@ -172,11 +168,6 @@
         height: 50px;
     }
 
-
-    input {
-        width: 300% !important;
-        height: 25% !important;
-    }
 
 
     .wrapper-for-img {
