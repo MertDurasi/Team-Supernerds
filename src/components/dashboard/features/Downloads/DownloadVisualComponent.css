@@ -1,0 +1,148 @@
+@font-face {font-family: "Nirmala UI Semilight"; src: url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.eot"); src: url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.woff") format("woff"), url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.svg#Nirmala UI Semilight") format("svg"); }
+
+
+
+.list-group {
+    position: relative;
+    left: 0;
+    top: 12%;
+    width: 100%;
+    height: 80px;
+    margin: 10px auto 0;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.list-group .list-group-item-f  {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    border-top: 2px solid #a5aaad;
+    border-bottom: 2px solid #a5aaad;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.list-group .list-group-item-nf  {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    border-bottom: 2px solid #a5aaad;
+    padding: 24.95311px;
+    transition: 0.5s;
+}
+
+#dc-ispdf-verify {
+    position: relative;
+    width: 30px;
+    left: 20px;
+}
+
+#dc-isfolder-verify {
+    position: relative;
+    width: 35px;
+    left: 15px;
+}
+
+#expanded-options-downloads-folder {
+    position: relative;
+    left: 4.5px;
+}
+.dropdown-helper-downloads {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content-downloads {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+}
+
+.dropdown-content-downloads a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content-downloads a:hover {
+    background-color: #ddd;
+}
+
+.dropdown-helper-downloads:hover .dropdown-content-downloads {
+    display: block;
+}
+
+
+
+#timesave-downloads-f {
+    position: relative;
+    left: 21.65%;
+    font-size: 14px;  
+}
+
+#timesave-downloads-nf {
+    position: relative;
+    left: 22%;
+    font-size: 14px;
+    top: 4.4px;  
+}
+
+#namefv-downloads-f {
+    font-family: "Nirmala UI Semilight", Regular, sans-serif;
+    font-size: 25px;
+    position: relative;
+    right: 18.1%;
+    bottom: 3px;
+}
+
+#namefv-downloads-nf {
+    font-family: "Nirmala UI Semilight", Regular, sans-serif;
+    font-size: 25px;
+    position: relative;
+    right: 18%;
+    bottom: 3px;
+}
+
+@media only screen and (max-width: 1350px){
+    #timesave-downloads-f {
+        left: 15%; 
+    }
+
+    #timesave-downloads-nf {
+        left: 15%;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    #timesave-downloads-f {
+        display: none; 
+    }
+
+    #timesave-downloads-nf {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    #dc-ispdf-verify {
+        display: none;
+    }
+    
+    #dc-isfolder-verify {
+        display: none;
+    }
+
+    #namefv-downloads-f {
+        right: 0;
+    }
+    
+    #namefv-downloads-nf {
+        right: 0;
+    }
+}

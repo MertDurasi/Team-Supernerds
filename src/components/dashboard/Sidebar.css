@@ -1,0 +1,119 @@
+@font-face {font-family: "Nirmala UI Semilight"; src: url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.eot"); src: url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.woff") format("woff"), url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.svg#Nirmala UI Semilight") format("svg"); }
+
+
+
+#sidebar-menu {
+  background: #0046FE;
+  grid-area: menu;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-width: 100%;
+  padding: 20px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.sidebar-titel-open {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px;
+  margin-bottom: 30px;
+}
+
+.sidebar-titel-open > img {
+  position: relative;
+  width: 30px;
+  height: auto;
+  bottom: 70px;
+  left: 100px;
+}
+
+.sidebar-titel-closed > img {
+  display: inline;
+  width: 31px;
+  position: relative;
+  left: 5px;
+}
+
+
+
+.sidebar__relinkers-closed {
+  display: none;
+}
+
+.sidebar__relinkers {
+  font-family: "Nirmala UI Semilight", Regular, sans-serif;
+  font-size: 11px;
+  color: white;
+  position: relative;
+  top: 28vh;
+}
+
+.sidebar__relinkers .sidebar-footer-text {
+  position: relative;
+  left: 6.5vh;
+
+}
+
+.sidebar__relinkers a {
+  position: relative;
+  left: 3vh;
+  margin: 0 5px 0 5px;
+}
+
+
+.linebreak-menu {
+  width: 75%;
+  position: relative;
+  bottom: 3%;
+  left: 11%;
+}
+
+
+.sidebar-responsive {
+  display: inline !important;
+  z-index: 99999 !important;
+  left: 0 !important;
+  position: absolute;
+  width: 40px;
+  height: 95.9%;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.sidebar-responsive hr {
+  display: none;
+}
+
+@media only screen and (max-width: 1750px) {
+  .sidebar-titel-open > img  {
+    left: 70px;
+  }
+}
+
+@media only screen and (max-width: 1550px) {
+  .sidebar-titel-open > img  {
+    left: 40px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .sidebar__relinkers .sidebar-footer-text {
+    left: 1vh;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .sidebar-titel-open > img  {
+    left: 5px;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  #sidebar-menu {
+    display: none;
+  }
+}

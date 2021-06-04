@@ -1,0 +1,10 @@
+
+.einstellungen-container {
+    background-color: white;
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    top: 12vh;
+    height: 600px;
+    left: 10%;
+}
