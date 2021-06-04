@@ -40,7 +40,7 @@ class Startseite extends Component {
             <p>
               Der Work Manager ermöglicht es Ihnen, Ihr Unternehmen
               <br></br>
-              online sowie einfach zu verwalten.
+              online und bequem zu verwalten.
             </p>
             <button id="login-button">Anfragen</button>
           </div>
