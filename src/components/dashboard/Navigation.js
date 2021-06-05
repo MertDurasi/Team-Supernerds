@@ -30,7 +30,8 @@ const Navigation = ({ menuOpen, openMenu, closeMenu }) => {
               src={profil_logo}
               alt="avatar"
             />
-            <span>Greta Soundso</span>
+            <span id="mitarbeiter_name">Greta Soundso</span>
+            <span id="firma_name">Hochschule Bochum</span>
           </div>
           <div className="dropdown-content">
             <a href="/dashboard/einstellungen">Profil</a>
