@@ -38,7 +38,7 @@ class Lohnabrechnung extends React.Component {
           <div className="lohnabrechnung-container">
           {this.lohnabrechnungen_files.map((field, index) => {
               return (
-                <DownloadVisualComponent firstFile={index == 0 ? true : false} isFolder={field.isFolder} nameForVis={field.filename} gerade={index % 2 == 0 ? true : false}/>
+                <DownloadVisualComponent firstFile={index === 0 ? true : false} isFolder={field.isFolder} nameForVis={field.filename} gerade={index % 2 === 0 ? true : false}/>
               )
             })}
           </div>

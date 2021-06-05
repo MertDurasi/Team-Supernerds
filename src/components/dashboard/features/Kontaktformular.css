@@ -11,7 +11,7 @@
         format("truetype"),
       url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.svg#Volte")
         format("svg");
-  }
+}
 
 
 .kontaktformular-container {
@@ -75,7 +75,8 @@
     resize: none;
     border: 0;
     outline: 0;
-    background-color: rgb(254, 254, 254);
+    border: 1px solid #a5aaad;
+    border-radius: 5px 5px 5px 5px;
 }
 
 
@@ -107,7 +108,7 @@
 
 .absenden-button:hover {
     background-image: linear-gradient(to right, #0546c0, #103579);
-  }
+}
 
 
 @media only screen and (max-width: 1250px) {
