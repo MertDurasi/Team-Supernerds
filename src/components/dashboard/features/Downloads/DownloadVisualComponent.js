@@ -9,12 +9,13 @@ import moment from "moment";
 // TODO: Später: in Datenbank einfügen, um löschen zu ermöglichen
 // Dieser Komponent dient für den Downloadsbereich.
 
-const DownloadVisualComponent = ( {firstFile, isFolder, nameForVis }) => {
+const DownloadVisualComponent = ( {firstFile, isFolder, nameForVis, gerade }) => {
 
 
   return (
       
-      <ul className="list-group">
+      <ul className="list-group" id={gerade ? "list-group-grey" : "list-group-white"}>
+        <div className="inlinetext-handling-dw">
         <li className={firstFile ? "list-group-item-f" : "list-group-item-nf"}>
         <img id={isFolder ? "dc-isfolder-verify" : "dc-ispdf-verify"} src={isFolder ? Ordner_logo : Pdf_logo} alt="doc"></img>
         <span id={isFolder ? "namefv-downloads-f" : "namefv-downloads-nf"}>{nameForVis}</span>
@@ -27,6 +28,8 @@ const DownloadVisualComponent = ( {firstFile, isFolder, nameForVis }) => {
           </div> 
         </div>
         </li>
+        </div>
+       
       </ul>
  
   );

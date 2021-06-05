@@ -63,12 +63,7 @@ h3 {
     min-height: 100%;
 }
 
-hr {
-    width: 75px;
-    height: 3px;
-    background: black;
-    margin: 0 auto 40px auto;
-}
+
 
 a {
     text-decoration: none;
