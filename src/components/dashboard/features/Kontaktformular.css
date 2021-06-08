@@ -11,7 +11,7 @@
         format("truetype"),
       url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.svg#Volte")
         format("svg");
-  }
+}
 
 
 .kontaktformular-container {
@@ -19,8 +19,7 @@
     position: absolute;
     width: 90%;
     margin: 0 auto;
-    margin-top: 1vh;
-    height: 700px;
+    height: 80vh;
     left: 5%;
 }
 
@@ -75,7 +74,8 @@
     resize: none;
     border: 0;
     outline: 0;
-    background-color: rgb(254, 254, 254);
+    border: 1px solid #a5aaad;
+    border-radius: 5px 5px 5px 5px;
 }
 
 
@@ -96,7 +96,7 @@
     font-weight: 600;
     position: absolute;
     top: 90%;
-    left: 42%;
+    left: 44.5%;
     width: 120px;
     height: 6%;
     border-radius: 20px 20px 20px 20px;
@@ -107,7 +107,7 @@
 
 .absenden-button:hover {
     background-image: linear-gradient(to right, #0546c0, #103579);
-  }
+}
 
 
 @media only screen and (max-width: 1250px) {
@@ -133,28 +133,29 @@
         font-size: 12px;
         border-bottom: 1px solid #a5aaad;
         height: 60px;
+        left: 37%;
     }
 
     .betreff-field {
         top: 10%;
-        left: 30%;
+       
     }
     
     .empfaenger-field {
         top: 20%;
-        left: 30%;
+    
     
     }
     
     .email-adresse-field {
         top: 30%;
-        left: 30%;
+      
     
     }
     
     .mobilfunknummer-field {
         top: 40%;
-        left: 30%;
+      
     
     }
     .message-field {
@@ -162,6 +163,17 @@
     }
 
     .absenden-button {
-        left: 35%;
+        left: 40%;
+        top: 83%;
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .kontaktformular-container input {
+        left: 28%;
+    }
+    .absenden-button {
+        left: 30%;
     }
 }

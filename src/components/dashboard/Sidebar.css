@@ -17,16 +17,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 100px;
-  margin-bottom: 30px;
+  margin: 10vh;
+  margin-bottom: 3vh;
 }
 
 .sidebar-titel-open > img {
   position: relative;
-  width: 30px;
+  width: 3vh;
   height: auto;
-  bottom: 70px;
-  left: 100px;
+  bottom: 7vh;
+  left: 6vw;
 }
 
 .sidebar-titel-closed > img {
@@ -44,21 +44,18 @@
 
 .sidebar__relinkers {
   font-family: "Nirmala UI Semilight", Regular, sans-serif;
-  font-size: 11px;
+  font-size: 0.7vw;
+  max-width: 100%;
   color: white;
   position: relative;
-  top: 28vh;
 }
 
-.sidebar__relinkers .sidebar-footer-text {
-  position: relative;
-  left: 6.5vh;
-
+#sidebar-menu .sidebar__relinkers {
+  text-align: center;
+  top: 35vh;
 }
 
 .sidebar__relinkers a {
-  position: relative;
-  left: 3vh;
   margin: 0 5px 0 5px;
 }
 
@@ -68,6 +65,7 @@
   position: relative;
   bottom: 3%;
   left: 11%;
+  
 }
 
 
@@ -88,27 +86,17 @@
   display: none;
 }
 
+
 @media only screen and (max-width: 1750px) {
   .sidebar-titel-open > img  {
-    left: 70px;
+    left: 4vw;
   }
 }
 
-@media only screen and (max-width: 1550px) {
-  .sidebar-titel-open > img  {
-    left: 40px;
-  }
-}
-
-@media only screen and (max-width: 1400px) {
-  .sidebar__relinkers .sidebar-footer-text {
-    left: 1vh;
-  }
-}
 
 @media only screen and (max-width: 1350px) {
   .sidebar-titel-open > img  {
-    left: 5px;
+    left: 2vw;
   }
 }
 

@@ -68,12 +68,14 @@
   display: flex;
   align-items: center;
   background: white !important;
+
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
   display: inline-block;
+  left: 0;
 }
 
 .dropdown-content {
@@ -106,6 +108,21 @@
   background-color: white;
 }
 
+
+/* TODO: Add Font weight & Font Family */
+#mitarbeiter_name {
+  color: #0046FE;
+  font-weight: 600;
+}
+
+#firma_name {
+  position: relative;
+  top: 15px;
+  font-size: 10px;
+  font-weight: 600;
+  right: 90px;
+}
+
 @media only screen and (max-width: 1350px) {
   .navigation-left {
     left: 1px;
@@ -125,6 +142,14 @@
 
 @media only screen and (max-width: 480px) {
   .navigation-left {
+    display: none;
+  }
+  #mitarbeiter_name {
+
+    display: none;
+  }
+
+  #firma_name {
     display: none;
   }
 }

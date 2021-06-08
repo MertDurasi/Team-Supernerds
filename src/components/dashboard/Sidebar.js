@@ -1,6 +1,5 @@
 import "./Sidebar.css";
 import hamburger_logo from "../../img/dashboard/burger_menu.svg";
-import neuigkeiten_logo from "../../img/dashboard/Neuigkeiten.svg";
 import dienstplan_logo from "../../img/dashboard/Dienstplan.svg";
 import lohnabrechnung_logo from "../../img/dashboard/Lohnabrechnung.svg";
 import urlaubsantrag_logo from "../../img/dashboard/Urlaubsantrag.svg";
@@ -11,14 +10,9 @@ import React from "react";
 import Button from "./Button";
 
 class Sidebar extends React.Component {
-  state = { showText: true };
+  state = { showText: false };
 
   menu_objekte = [
-    {
-      text: "Neuigkeiten",
-      route: "/neuigkeiten",
-      logo: neuigkeiten_logo,
-    },
     {
       text: "Dienstplan",
       route: "/dienstplan",
@@ -68,8 +62,8 @@ class Sidebar extends React.Component {
             id="sidebar-icon-image"
             onClick={
               this.props.menuOpen
-                ? () => this.props.closeMenu()
-                : () => this.props.openMenu()
+                ? () => {this.props.closeMenu(); this.setState({showText: false})}
+                : () => {this.props.openMenu(); this.setState({showText: true})}
             }
           />
         </div>

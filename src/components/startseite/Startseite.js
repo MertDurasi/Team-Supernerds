@@ -54,7 +54,7 @@ class Startseite extends Component {
 
 
         <div id="supernerds-container">
-          <img id="supernerds" src={supernerds}></img>
+          <img id="supernerds" src={supernerds} alt="supernerds"></img>
         </div>
 
 

@@ -1,11 +1,27 @@
 
-import "./Downloads.css";
-import DownloadVisualComponent from "./Downloads/DownloadVisualComponent.js";
+import React from "react";
+import Datei from "./Allgemein/Datei.js";
 
 
-const Downloads = () => {
+class Downloads extends React.Component {
 
+  // Liste -> später aus DB auslesen
+  download_files = [
+    {
+      filename: "Coronainformationen",
+      isFolder: false,
+    },
+    {
+      filename: "Allgemeine Daten",
+      isFolder: true,
+    },
+    {
+      filename: "Mehrere Daten",
+      isFolder: false,
+    }
+  ];
 
+  render() {
   return (
     <main>
     <div className="main__container">
@@ -14,14 +30,16 @@ const Downloads = () => {
         <span>Hier können Sie verschiedenste Dokumente herunterladen</span>
       </div>
         <div className="grundgeruest-container">
-          <div className="downloads-container">
-              <DownloadVisualComponent firstFile={true} isFolder={false} nameForVis="Testname"></DownloadVisualComponent>
-              <DownloadVisualComponent firstFile={false} isFolder={true} nameForVis="Testname2"></DownloadVisualComponent>
-          </div>
+            {this.download_files.map((field, index) => {
+              return (
+                <Datei firstFile={index === 0 ? true : false} isFolder={field.isFolder} nameForVis={field.filename} gerade={index % 2 === 0 ? true : false}/>
+              )
+            })}
         </div>
      </div>
   </main>
   );
+  }
 };
 
 export default Downloads;
