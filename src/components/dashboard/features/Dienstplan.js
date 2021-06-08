@@ -1,3 +1,7 @@
+
+import ScheduleCalender from "./Dienstplan/ScheduleCalender.js";
+import "./Dienstplan.css";
+
 const Dienstplan = () => {
   return (
     <main>
@@ -8,7 +12,7 @@ const Dienstplan = () => {
       </div>
         <div className="grundgeruest-container">
           <div className="dienstplan-container">
-
+            <ScheduleCalender></ScheduleCalender>
           </div>
         </div>
      </div>

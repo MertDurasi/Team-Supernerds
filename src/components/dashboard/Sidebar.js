@@ -1,6 +1,5 @@
 import "./Sidebar.css";
 import hamburger_logo from "../../img/dashboard/burger_menu.svg";
-import neuigkeiten_logo from "../../img/dashboard/Neuigkeiten.svg";
 import dienstplan_logo from "../../img/dashboard/Dienstplan.svg";
 import lohnabrechnung_logo from "../../img/dashboard/Lohnabrechnung.svg";
 import urlaubsantrag_logo from "../../img/dashboard/Urlaubsantrag.svg";
@@ -14,11 +13,6 @@ class Sidebar extends React.Component {
   state = { showText: false };
 
   menu_objekte = [
-    {
-      text: "Neuigkeiten",
-      route: "/neuigkeiten",
-      logo: neuigkeiten_logo,
-    },
     {
       text: "Dienstplan",
       route: "/dienstplan",

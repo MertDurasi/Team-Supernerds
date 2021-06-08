@@ -3,7 +3,7 @@ import { useState } from "react";
 import "./Dashboard.css";
 import Navigation from "./Navigation";
 import Sidebar from "./Sidebar";
-import Neuigkeiten from "./features/Neuigkeiten";
+import "./features/Grundgeruest.css";
 import Urlaubsantrag from "./features/Urlaubsantrag";
 import Downloads from "./features/Downloads";
 import Einstellungen from "./features/Einstellungen";
@@ -37,9 +37,6 @@ const Dashboard = () => {
           openMenu={openMenu}
         />
 
-        <Route path="/dashboard/neuigkeiten">
-          <Neuigkeiten />
-        </Route>
         <Route path="/dashboard/dienstplan">
           <Dienstplan />
         </Route>
