@@ -6,7 +6,7 @@ class Button extends Component {
   state = {};
 
   render() {
-    if (this.props.menuOpen) {
+    if (this.props.showText) {
       return (
         <div className="btn-container">
           <Link className="btn" to={"/dashboard" + this.props.component.route}>

@@ -1,7 +1,6 @@
 import React from "react";
 
-import "./Lohnabrechnung.css";
-import DownloadVisualComponent from "./Downloads/DownloadVisualComponent.js";
+import Datei from "./Allgemein/Datei.js";
 
 
 class Lohnabrechnung extends React.Component {
@@ -35,13 +34,11 @@ class Lohnabrechnung extends React.Component {
         <span>Hier können Sie ihre Lohnabrechnungen einsehen</span>
       </div>
         <div className="grundgeruest-container">
-          <div className="lohnabrechnung-container">
           {this.lohnabrechnungen_files.map((field, index) => {
               return (
-                <DownloadVisualComponent firstFile={index === 0 ? true : false} isFolder={field.isFolder} nameForVis={field.filename} gerade={index % 2 === 0 ? true : false}/>
+                <Datei firstFile={index === 0 ? true : false} isFolder={field.isFolder} nameForVis={field.filename} gerade={index % 2 === 0 ? true : false}/>
               )
             })}
-          </div>
         </div>
      </div>
   </main>

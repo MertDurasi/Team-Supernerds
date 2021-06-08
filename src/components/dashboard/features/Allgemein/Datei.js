@@ -2,14 +2,14 @@
 import Ordner_logo from "../../../../img/dashboard/Ordner.svg";
 import Pdf_logo from "../../../../img/dashboard/PDF.svg";
 import downloads_menu_logo from "../../../../img/dashboard/downloads-menu.svg";
-import "./DownloadVisualComponent.css";
+import "./Datei.css";
 import React from "react";
 import moment from "moment";
 
 // TODO: Später: in Datenbank einfügen, um löschen zu ermöglichen
 // Dieser Komponent dient für den Downloadsbereich.
 
-const DownloadVisualComponent = ( {firstFile, isFolder, nameForVis, gerade }) => {
+const Datei = ( { firstFile, isFolder, nameForVis, gerade, datei  } ) => {
 
 
   return (
@@ -35,4 +35,4 @@ const DownloadVisualComponent = ( {firstFile, isFolder, nameForVis, gerade }) =>
   );
 };
 
-export default DownloadVisualComponent;
+export default Datei;

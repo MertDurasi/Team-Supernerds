@@ -68,8 +68,8 @@ class Sidebar extends React.Component {
             id="sidebar-icon-image"
             onClick={
               this.props.menuOpen
-                ? () => this.props.closeMenu()
-                : () => this.props.openMenu()
+                ? () => {this.props.closeMenu(); this.setState({showText: false})}
+                : () => {this.props.openMenu(); this.setState({showText: true})}
             }
           />
         </div>

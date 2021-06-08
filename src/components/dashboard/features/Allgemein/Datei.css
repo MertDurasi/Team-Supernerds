@@ -4,9 +4,9 @@
 
 .list-group {
     position: relative;
-    left: 0;
+    left: 5%;
     top: 12%;
-    width: 100%;
+    width: 90%;
     box-sizing: border-box;
 }
 
