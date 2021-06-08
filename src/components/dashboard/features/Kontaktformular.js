@@ -21,7 +21,7 @@ class Kontaktformular extends Component {
               <textarea className="message-field" placeholder="Hier kommt Ihre Nachricht rein"></textarea>
               <DragDropFeature></DragDropFeature>
               <button className="absenden-button">Absenden</button>
-          </div>
+        </div>
         </div>
      </div>
   </main>

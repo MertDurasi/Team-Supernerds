@@ -17,6 +17,7 @@ const Urlaubsantrag = () => {
               <div id="urlaubsmethoden">
               <input type="radio" id="tariflich" value="urlaub_tariflich" name="reasoning-group-u"></input>
               <label for="tariflich">Tariflicher Urlaub</label>
+              <br id="urlaubsmethoden__breaker"></br>
               <input type="radio" id="sonder" value="urlaub_sonder" name="reasoning-group-u"></input>
               <label for="sonder">Sonderurlaub</label> 
               </div>

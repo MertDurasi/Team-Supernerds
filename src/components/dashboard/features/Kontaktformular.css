@@ -133,28 +133,29 @@
         font-size: 12px;
         border-bottom: 1px solid #a5aaad;
         height: 60px;
+        left: 37%;
     }
 
     .betreff-field {
         top: 10%;
-        left: 30%;
+       
     }
     
     .empfaenger-field {
         top: 20%;
-        left: 30%;
+    
     
     }
     
     .email-adresse-field {
         top: 30%;
-        left: 30%;
+      
     
     }
     
     .mobilfunknummer-field {
         top: 40%;
-        left: 30%;
+      
     
     }
     .message-field {
@@ -162,6 +163,17 @@
     }
 
     .absenden-button {
-        left: 35%;
+        left: 40%;
+        top: 83%;
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .kontaktformular-container input {
+        left: 28%;
+    }
+    .absenden-button {
+        left: 30%;
     }
 }

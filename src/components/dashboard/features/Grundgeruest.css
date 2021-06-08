@@ -46,3 +46,13 @@ main {
   margin-left: 2.1vh;
 }
 
+@media only screen and (max-width: 800px){
+
+  .headliner h2 {
+    font-size: 20px;
+  }
+  .headliner span {
+    font-size: 12px;
+  }
+  
+}

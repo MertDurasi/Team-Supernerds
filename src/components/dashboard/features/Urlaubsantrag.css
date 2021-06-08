@@ -30,33 +30,34 @@
     margin-left: 10px;
 }
 
-#urlaubsdaten input {
-    position: absolute;
-    top: 25%;
-    font-size: 20px;
-}
 
 
 .von-field {
+    position: absolute;
+    top: 25%;
+    font-size: 20px;
     left: 28%;
 }
 
 .bis-field {
+    position: absolute;
+    top: 25%;
+    font-size: 20px;
     left: 52%;
 }
 
-#urlaubsdaten label {
+#label-von-field {
     position: absolute;
     top: 25.3%;
     font-size: 20px;
-}
-
-#label-von-field {
-    left: 24.5%;
+    left: 23.8%;
 }
 
 #label-bis-field {
-    left: 49%;
+    position: absolute;
+    top: 25.3%;
+    font-size: 20px;
+    left: 48.5%;
 }
 
 
@@ -97,4 +98,191 @@
 
 #antrag-stellen-btn:hover {
     background-image: linear-gradient(to right, #0546c0, #103579);
+}
+
+#urlaubsmethoden__breaker {
+    display: none;
+}
+
+
+@media only screen and (max-width: 1400px) {
+
+    #urlaubsmethoden {
+        left: 15%;
+    }
+    #urlaubsmethoden label {
+        font-size: 18px;
+    }
+
+    .von-field {
+        left: 40%;
+    }
+
+    #label-von-field {
+        left: 33.5%;
+    }
+
+    .bis-field {
+        top: 33%;
+        left: 40%;
+    }
+
+    #label-bis-field {
+        top: 33.3%;
+        left: 33.5%;
+    }
+
+    #message-field-urlaubsantrag {
+        top: 40%;
+        left: 25%;
+    } 
+
+    #info-text-urlaubsantrag  {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    #urlaubsmethoden {
+        left: 20%;
+        top: 12%;
+    }
+    #urlaubsmethoden input {
+        margin-top: 20px;
+    }
+    #urlaubsmethoden__breaker {
+        display: flex;
+    }
+
+    .von-field {
+        left: 35%;
+    }
+
+    #label-von-field {
+        left: 27.5%;
+    }
+
+    .bis-field {
+        top: 33%;
+        left: 35%;
+    }
+
+    #label-bis-field {
+        top: 33.3%;
+        left: 27.5%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #urlaubsmethoden {
+        left: 10%;
+        top: 12%;
+    }
+    #urlaubsmethoden input {
+        margin-top: 20px;
+    }
+    #urlaubsmethoden__breaker {
+        display: flex;
+    }
+
+    .von-field {
+        left: 35%;
+    }
+
+    #label-von-field {
+        left: 24.5%;
+    }
+
+    .bis-field {
+        top: 33%;
+        left: 35%;
+    }
+
+    #label-bis-field {
+        top: 33.3%;
+        left: 24.5%;
+    }
+
+    #info-text-urlaubsantrag  {
+        font-size: 14px;
+        left: 10%;
+    }
+}
+
+@media only screen and (max-width: 500px) { 
+    #urlaubsmethoden {
+        left: -2%;
+        top: 9%;
+    }
+    #urlaubsmethoden input {
+        margin-top: 20px;
+    }
+    #urlaubsmethoden__breaker {
+        display: flex;
+    }
+
+    .von-field {
+        left: 25%;
+        top: 18%;
+    }
+
+    #label-von-field {
+        left: 7.5%;
+        top: 18.5%;
+    }
+
+    .bis-field {
+        top: 23%;
+        left: 25%;
+    }
+
+    #label-bis-field {
+        left: 7.5%;
+        top: 23.5%;
+    }
+
+    #message-field-urlaubsantrag {
+        top: 28%;
+    }
+
+    #info-text-urlaubsantrag  {
+        top: 60%;
+        left: 0;
+        font-size: 14px;
+    }
+
+    #antrag-stellen-btn {
+        left: 30%;
+        top: 70%;
+    }
+
+}
+
+
+@media only screen and (max-width: 350px) { 
+    #urlaubsmethoden {
+        left: -30%;
+        top: 9%;
+    }
+
+    .von-field {
+        font-size: 16px;
+    }
+    .bis-field {
+        font-size: 16px;
+    }
+
+    #label-von-field {
+        left: 7.5%;
+        top: 18%;
+    }
+
+    #label-bis-field {
+        left: 7.5%;
+        top: 23%;
+    }
+    #antrag-stellen-btn {
+        top: 75%;
+    }
 }
