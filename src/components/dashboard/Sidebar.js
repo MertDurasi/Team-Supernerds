@@ -11,7 +11,7 @@ import React from "react";
 import Button from "./Button";
 
 class Sidebar extends React.Component {
-  state = { showText: true };
+  state = { showText: false };
 
   menu_objekte = [
     {

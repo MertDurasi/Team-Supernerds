@@ -112,12 +112,14 @@
 /* TODO: Add Font weight & Font Family */
 #mitarbeiter_name {
   color: #0046FE;
+  font-weight: 600;
 }
 
 #firma_name {
   position: relative;
   top: 15px;
   font-size: 10px;
+  font-weight: 600;
   right: 90px;
 }
 

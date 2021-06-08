@@ -3,7 +3,7 @@
 
 .btn-text {
   font-family: "Nirmala UI Semilight", Regular, sans-serif;
-  font-size: 1vw;
+  font-size: 16px;
   position: relative;
   color: white;
   padding-left: 3.5vh;
@@ -17,7 +17,7 @@
   background-color: #0046FE;
   border: none;
   height: 70%;
-  width: 100%;
+  width: 12vw;
   border-radius: 50px;
   padding: 1vh;
 }
@@ -39,7 +39,7 @@
   padding-right: 1vh;
   position: absolute;
   left: 10%;
-  width: 1.5vw;
+  width: 25px;
   bottom: 2%;
 }
 
@@ -56,4 +56,16 @@
 
 .btn:hover {
   background-image: linear-gradient(to right, #0546c0, #103579);
+}
+
+@media only screen and (max-width: 1450px) {
+
+  .btn-text {
+    font-size: 15px;
+    top: 0.6vh;
+    left: 11%;
+  }
+  .logo {
+    width: 20px;
+  }
 }

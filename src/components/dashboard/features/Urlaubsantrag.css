@@ -14,58 +14,51 @@
 }
 
 
-.urlaubsantrag-container {
-    background-color: white;
-    position: absolute;
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 1vh;
-    height: 700px;
-    left: 5%;
-}
-
-.urlaubsantrag-container input {
-    border: 0;
-    outline: 0;
-    background: transparent;
-    position: absolute;
-    color: black;
-    font-size: 20px;
-    border-bottom: 1px solid #a5aaad;
-    height: 50px;
-}
-
-
-.von-field {
-    top: 25%;
-    left: 24.3%;
-}
-
-
-.bis-field {
-    top: 25%;
-    left: 52%;
-}
-
 #urlaubsmethoden {
     position: absolute;
     top: 15%;
     left: 20%;
-    width: 100%;
+    padding-left: 10px;
 }
 
 #urlaubsmethoden input {
-    position: relative; 
     margin-left: 100px;
-    
-}
+} 
 
 #urlaubsmethoden label {
-    position: relative;
-    font-size: 20px;
-    bottom: 20px;
-    left: 10px;
+    font-size: 22px;
+    margin-left: 10px;
 }
+
+#urlaubsdaten input {
+    position: absolute;
+    top: 25%;
+    font-size: 20px;
+}
+
+
+.von-field {
+    left: 28%;
+}
+
+.bis-field {
+    left: 52%;
+}
+
+#urlaubsdaten label {
+    position: absolute;
+    top: 25.3%;
+    font-size: 20px;
+}
+
+#label-von-field {
+    left: 24.5%;
+}
+
+#label-bis-field {
+    left: 49%;
+}
+
 
 #message-field-urlaubsantrag {
     position: absolute;
@@ -78,6 +71,7 @@
     border-radius: 5px 5px 5px 5px;
     outline: 0;
 }
+
 
 #info-text-urlaubsantrag {
     position: absolute;

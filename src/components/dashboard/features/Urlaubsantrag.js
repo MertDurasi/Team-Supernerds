@@ -13,26 +13,29 @@ const Urlaubsantrag = () => {
         <span>Hier können Sie einen Urlaubsantrag einreichen</span>
       </div>
         <div className="grundgeruest-container">
-          <div className="urlaubsantrag-container">
-                <div id="urlaubsmethoden">
-                <input type="radio" id="tariflich" value="urlaub_tariflich" name="reasoning-group-u"></input>
-                <label for="tariflich">Tariflicher Urlaub</label>
-                <input type="radio" id="sonder" value="urlaub_sonder" name="reasoning-group-u"></input>
-                <label for="sonder">Sonderurlaub</label> 
-                </div>
-              {/* Evtl. type=date */}
-              <input type="date" className="von-field" placeholder="Von [TT.MM.JJJJ]"></input>
-              <input type="date" className="bis-field" placeholder="Bis [TT.MM.JJJJ]"></input>
+          
+              <div id="urlaubsmethoden">
+              <input type="radio" id="tariflich" value="urlaub_tariflich" name="reasoning-group-u"></input>
+              <label for="tariflich">Tariflicher Urlaub</label>
+              <input type="radio" id="sonder" value="urlaub_sonder" name="reasoning-group-u"></input>
+              <label for="sonder">Sonderurlaub</label> 
+              </div>
+            {/* Evtl. type=date */}
+            <div id="urlaubsdaten">
+            <input type="date" className="von-field" id="von-field-id" placeholder="Von [TT.MM.JJJJ]"></input>
+            <label for="von-field-id" id="label-von-field">Von:</label>
+            <input type="date" className="bis-field" id="bis-field-id" placeholder="Bis [TT.MM.JJJJ]"></input>
+            <label for="bis-field-id" id="label-bis-field">Bis:</label>
+            </div>
+            <textarea id="message-field-urlaubsantrag" placeholder="Schreiben Sie einen Kommentar..."></textarea>
+            <span id="info-text-urlaubsantrag">
+            <img width="20" src={info_logo} alt="info"/> Mit der Bestätigung des Antrag-Buttons bestätigen Sie die Richtigkeit<br />
+              Ihrer Angaben. Eine Änderung des vorstehend genehmigten Urlaubs<br />
+              bedarf der Zustimmung des Arbeitgebers.
+            </span>
 
-              <textarea id="message-field-urlaubsantrag" placeholder="Schreiben Sie einen Kommentar..."></textarea>
-              <span id="info-text-urlaubsantrag">
-              <img width="20" src={info_logo} alt="info"/> Mit der Bestätigung des Antrag-Buttons bestätigen Sie die Richtigkeit<br />
-                Ihrer Angaben. Eine Änderung des vorstehend genehmigten Urlaubs<br />
-                bedarf der Zustimmung des Arbeitgebers.
-              </span>
-
-              <button id="antrag-stellen-btn" >Antrag stellen</button>
-          </div>
+            <button id="antrag-stellen-btn" >Antrag stellen</button>
+        
         </div>
      </div>
   </main>
