@@ -17,16 +17,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 100px;
-  margin-bottom: 30px;
+  margin: 10vh;
+  margin-bottom: 3vh;
 }
 
 .sidebar-titel-open > img {
   position: relative;
   width: 30px;
   height: auto;
-  bottom: 70px;
-  left: 100px;
+  bottom: 7vh;
+  left: 12vh;
 }
 
 .sidebar-titel-closed > img {
