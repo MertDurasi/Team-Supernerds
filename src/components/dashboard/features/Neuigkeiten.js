@@ -6,7 +6,7 @@ const Neuigkeiten = () => {
       <main>
         <div className="main__container">
           <div className="headliner">
-            <h2>Neuigkeiten hier</h2>
+            <h2>Neuigkeiten</h2>
             <span>Hier finden Sie die aktuellsten Neuigkeiten</span>
           </div>
             <div className="grundgeruest-container">

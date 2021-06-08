@@ -3,7 +3,7 @@ const Dienstplan = () => {
     <main>
     <div className="main__container">
       <div className="headliner">
-        <h2>Dienstplan hier</h2>
+        <h2>Dienstplan</h2>
         <span>Hier können Sie ihren Dienstplan einsehen</span>
       </div>
         <div className="grundgeruest-container">

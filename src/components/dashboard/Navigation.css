@@ -144,4 +144,12 @@
   .navigation-left {
     display: none;
   }
+  #mitarbeiter_name {
+
+    display: none;
+  }
+
+  #firma_name {
+    display: none;
+  }
 }

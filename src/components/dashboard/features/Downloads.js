@@ -8,15 +8,15 @@ class Downloads extends React.Component {
   // Liste -> später aus DB auslesen
   download_files = [
     {
-      filename: "Testname",
+      filename: "Coronainformationen",
       isFolder: false,
     },
     {
-      filename: "Testname2",
+      filename: "Allgemeine Daten",
       isFolder: true,
     },
     {
-      filename: "Testname3",
+      filename: "Mehrere Daten",
       isFolder: false,
     }
   ];
