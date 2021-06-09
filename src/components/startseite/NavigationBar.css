@@ -1,62 +1,98 @@
-#parent {
+
+#header {
     width: 100%;
-    height: 65px;
-
-    /* Der Header bleibt fix oben in der Leiste beim Scrollen. */ 
+    height: 70px;
     position: fixed;
-
-    /* Top und Left sind die Abstände zu den Viewrändern. */
     top: 0;
     left: 0;
     background: #ffffff;
-    /* Schatten */
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
-
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    z-index: 1;
 }
 
 #logo-container {
     width: 150px;
     float: left;
-
-    /* Abstände zu den Rändern */
-    margin: 0px 0px 0px 4.5%;
-    /* Übergang zwischen zwei Zuständen */
+    margin: 0px 0px 0px 240px;
     transition: all 300ms;
 }
 
-#logo {
-    max-width: 100%;
-    height: auto;
+#logo-container:hover {
+    opacity: 0.5;
 }
 
-#logo:hover {
-    opacity: 0.5;
+#logo {
+    width: 100%;
+    height: 100%;
+}
+
+#header {
+    background-color: white;
 }
 
 #nav-container nav {
     float: right;
-    margin: 10px 75px 0px 0px;
+    margin: 16px 180px 0px 0px;
 }
 
-#nav-container nav:after {
-    transition: all 300ms;
-}
-
+/*
+.nav-btn {
 #nav-container nav ul li {
     float: left;
-    margin-right: 25px;
+    margin-left: 50px;
+    font-family: 'Volte', Medium, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+}
+*/
+
+.nav-btn {
+    border-style: none;
+    background-color: transparent;
+    font-family: 'Volte', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #666666;
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 7px;
 }
 
-#nav-container nav ul li:hover {
-    padding-top: 5px;
-    transition: all 300ms;
+#l-btn {
+    color: #305cd6;
+    background-color: #cde2ff;
+    margin-left: 40px;
+    padding-right: 25px;
+    padding-left: 25px;
 }
 
-a {
-    text-decoration: none;
+#l-btn:hover {
+    background-color: #043fff;
+    color: white;
+    opacity: 1;
 }
 
-li {
-    list-style-type: none;
-    padding-left: 30px;
+.nav-btn:hover {
+    background-color: #043fff;
+    color: white;
+    opacity: 0.85;
+    border-radius: 7px;
+    transition: all 400ms;
 }
+
+
+/*
+.nav-btn {
+    padding: 8px 20px 8px 20px;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 5px;
+    border: 2px solid;
+    font-family: 'Volte', sans-serif;
+    color: white;
+    float: left;
+}
+*/
