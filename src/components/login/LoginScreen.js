@@ -27,9 +27,9 @@ class LoginScreen extends React.Component {
           </div>
 
           <form>
-            <input className="login-text-area" id="username" type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;max_mustermann" name="uname" required></input>
+            <input className="login-text-area" id="username" type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Benutzername" name="uname" required></input>
             <br />
-            <input className="login-text-area" id="passwort" type="passwort" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;********" name="psw" required></input>
+            <input className="login-text-area" id="passwort" type="passwort" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Passwort" name="psw" required></input>
             <br />
             <a id="psw_vergessen" href="/login">Passwort vergessen?</a>
             <br />

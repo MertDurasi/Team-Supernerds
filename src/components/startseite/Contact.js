@@ -17,9 +17,9 @@ function Contact() {
                     </p>
 
                     <form method="post" action="send_email.php">
-                        <input className="input-text" type="email" name="email" tabindex="1" placeholder="E-Mail"></input><br></br>
-                        <input className="input-text" type="text" tabindex="2" name="betreff" placeholder="Betreff"></input><br></br>
-                        <textarea className="input-text" tabindex="3" placeholder="Nachricht"></textarea><br></br>
+                        <input className="input-text" type="Email" name="Email" tabindex="1" placeholder="E-Mail"></input><br></br>
+                        <input className="input-text" type="text" tabindex="2" name="Betreff" placeholder="Betreff"></input><br></br>
+                        <textarea className="input-text" tabindex="3" name="Message" placeholder="Nachricht"></textarea><br></br>
                         <input className="button" id="button" type="submit"></input>
                     </form>
                 </div>

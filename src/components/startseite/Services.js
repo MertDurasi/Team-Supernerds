@@ -1,4 +1,5 @@
 import React from "react";
+import Servicebox from "./Servicebox";
 import "./Startseite.css";
 
 function Services() {
