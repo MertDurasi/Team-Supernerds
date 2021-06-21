@@ -2,7 +2,7 @@ import React from 'react';
 import './Servicebox.css';
 import './Startseite.css';
 
-const Servicebox = ({logo, ueberschrift, beschreibung}) => {
+const Advantage = ({logo, ueberschrift, beschreibung}) => {
     return (
         <div id="service-box">
             <img src={ logo } alt="service-logo"></img>

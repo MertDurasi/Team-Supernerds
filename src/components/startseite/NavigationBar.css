@@ -84,6 +84,24 @@
 }
 
 
+@media only screen and (max-width: 1920px) {
+    #logo-container {
+        margin-left: 50px;
+        transition: all 500ms;
+    }
+    .nav-btn {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px 15px 10px 15px;
+        font-size: 15px;
+        transition: all 500ms;
+    }
+
+    #nav-container nav {
+        margin-right: 50px;
+    }
+}
+
 /*
 .nav-btn {
     padding: 8px 20px 8px 20px;
