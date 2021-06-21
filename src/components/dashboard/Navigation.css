@@ -35,13 +35,13 @@
 
 #change-news-left {
   position: absolute;
-  left: 0;
+  left: 1.5%;
   top: 20%;
 }
 
 #change-news-right {
   position: absolute;
-  right: 0;
+  right: 1.5%;
   top: 20%;
 }
 
@@ -68,7 +68,6 @@
   display: flex;
   align-items: center;
   background: white !important;
-
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -108,10 +107,9 @@
   background-color: white;
 }
 
-
 /* TODO: Add Font weight & Font Family */
 #mitarbeiter_name {
-  color: #0046FE;
+  color: #0046fe;
   font-weight: 600;
 }
 
@@ -130,7 +128,6 @@
   }
 }
 
-
 @media only screen and (max-width: 1150px) {
   .navigation-icon {
     display: inline;
@@ -145,7 +142,6 @@
     display: none;
   }
   #mitarbeiter_name {
-
     display: none;
   }
 

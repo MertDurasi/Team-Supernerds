@@ -3,9 +3,28 @@ import profil_logo from "../../img/dashboard/Profil.svg";
 import menu_logo from "../../img/dashboard/downloads-menu.svg";
 import lpfeil_logo from "../../img/dashboard/Pfeil nach links.svg";
 import rpfeil_logo from "../../img/dashboard/Pfeil nach rechts.svg";
-
+import { useState } from "react";
 
 const Navigation = ({ menuOpen, openMenu, closeMenu }) => {
+  const maxIndex = 3;
+
+  const [news, setNews] = useState([
+    "-- Das Nächste WT-2 Praktikum findet am 9.06 um 14:50 statt! --",
+    "-- Das Übernächste WT-2 Praktikum finet nicht statt! --",
+    "-- Das Firmengelände darf nicht ohne FFP2-Maske betreten werden --",
+    "-- Wer das liest ist doof --",
+  ]);
+
+  const [index, setIndex] = useState(0);
+
+  function plusIndex() {
+    index < maxIndex ? setIndex(index + 1) : setIndex(0);
+  }
+
+  function minusIndex() {
+    index > 0 ? setIndex(index - 1) : setIndex(maxIndex);
+  }
+
   return (
     <nav className="navigation-bar">
       <div
@@ -15,11 +34,19 @@ const Navigation = ({ menuOpen, openMenu, closeMenu }) => {
         <img width="20" src={menu_logo} alt="|||" />
       </div>
       <div className="navigation-left">
-        <img id="change-news-left" src={lpfeil_logo} alt="lpf"/>
-        <a href="/news">
-          -- Das Nächste WT-2 Praktikum findet am 9.06 um 14:50 statt! --
-        </a>
-        <img id="change-news-right" src={rpfeil_logo} alt="rpf"/>
+        <img
+          onClick={minusIndex}
+          id="change-news-left"
+          src={lpfeil_logo}
+          alt="lpf"
+        />
+        <a href="/news">{news[index]}</a>
+        <img
+          onClick={plusIndex}
+          id="change-news-right"
+          src={rpfeil_logo}
+          alt="rpf"
+        />
       </div>
       <div className="navigation-right">
         <div className="dropdown">
