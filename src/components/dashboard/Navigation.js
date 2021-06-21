@@ -6,23 +6,22 @@ import rpfeil_logo from "../../img/dashboard/Pfeil nach rechts.svg";
 import { useState } from "react";
 
 const Navigation = ({ menuOpen, openMenu, closeMenu }) => {
-  const maxIndex = 3;
-
   const [news, setNews] = useState([
     "-- Das Nächste WT-2 Praktikum findet am 9.06 um 14:50 statt! --",
     "-- Das Übernächste WT-2 Praktikum finet nicht statt! --",
     "-- Das Firmengelände darf nicht ohne FFP2-Maske betreten werden --",
     "-- Wer das liest ist doof --",
+    "-- Team Supernerds Präsentiert --",
   ]);
 
   const [index, setIndex] = useState(0);
 
   function plusIndex() {
-    index < maxIndex ? setIndex(index + 1) : setIndex(0);
+    index < news.length - 1 ? setIndex(index + 1) : setIndex(0);
   }
 
   function minusIndex() {
-    index > 0 ? setIndex(index - 1) : setIndex(maxIndex);
+    index > 0 ? setIndex(index - 1) : setIndex(news.length - 1);
   }
 
   return (
