@@ -4,6 +4,7 @@ import menu_logo from "../../img/dashboard/downloads-menu.svg";
 import lpfeil_logo from "../../img/dashboard/Pfeil nach links.svg";
 import rpfeil_logo from "../../img/dashboard/Pfeil nach rechts.svg";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navigation = ({ menuOpen, openMenu, closeMenu }) => {
   const [news, setNews] = useState([
@@ -60,8 +61,8 @@ const Navigation = ({ menuOpen, openMenu, closeMenu }) => {
             <span id="firma_name">Hochschule Bochum</span>
           </div>
           <div className="dropdown-content">
-            <a href="/dashboard/einstellungen">Profil</a>
-            <a href="/dashboard/abmelden">Abmelden</a>
+          <Link to={"/dashboard/einstellungen"} className="pBtn">Profil</Link>
+            <Link to={"/dashboard/abmelden"} className="pBtn">Logout</Link>
           </div>
         </div>
       </div>
