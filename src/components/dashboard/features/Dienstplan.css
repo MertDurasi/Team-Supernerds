@@ -1,5 +1,12 @@
-
 .dienstplan-container {
+    font-family: "Volte", Medium, sans-serif;
     position: absolute;
-    top: 15%;
+    top: 12.5vh;
+    left: 10%;
+    width: 80%;
+    height: 50px;
+}
+
+.test {
+    font-size: 12.7px;
 }

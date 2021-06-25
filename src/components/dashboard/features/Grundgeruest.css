@@ -7,7 +7,6 @@ main {
 
 .main__container {
   padding: 20px 35px;
-
 }
 
 .grundgeruest-container {
@@ -21,7 +20,6 @@ main {
   border-radius: 10px 10px 10px 10px;
   box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
 }
-
 
 .headliner {
   background-color: #0046FE;

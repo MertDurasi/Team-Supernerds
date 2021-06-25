@@ -1,6 +1,16 @@
-@font-face {font-family: "Nirmala UI Semilight"; src: url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.eot"); src: url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.woff") format("woff"), url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.svg#Nirmala UI Semilight") format("svg"); }
-
-
+@font-face {
+    font-family: "Nirmala UI Semilight";
+    src: url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.eot");
+    src: url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.eot?#iefix")
+              format("embedded-opentype"),
+         url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.woff2")
+              format("woff2"),
+         url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.woff")
+              format("woff"),
+         url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.ttf")
+              format("truetype"),
+         url("//db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.svg#Nirmala UI Semilight")
+              format("svg"); }
 
 .list-group {
     position: relative;
@@ -17,7 +27,6 @@
 .list-group-item-nf {
     height: 80px;
 }
-
 
 .list-group .list-group-item-f  {
     display: flex;
@@ -41,7 +50,6 @@
 #list-group-grey .list-group-item-nf {
     background: #e2e8eb;
 }
-
 
 .dropdown-helper-downloads img{
     position: relative;
@@ -115,23 +123,4 @@
 
 .dropdown-helper-downloads:hover .dropdown-content-downloads {
     display: block;
-}
-
-
-@media only screen and (max-width: 600px) {
-    .inlinetext-handling-dw #timesave-downloads-nf {
-        display: none
-    }
-    .inlinetext-handling-dw #timesave-downloads-f {
-        display: none
-    }
-
-    .inlinetext-handling-dw #namefv-downloads-f {
-        font-size: 16px;
-        left: 40%;  
-    }
-    .inlinetext-handling-dw #namefv-downloads-nf {
-        font-size: 16px;
-        left: 40%;
-    }
 }

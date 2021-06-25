@@ -1,0 +1,17 @@
+.einstellungen-container {
+    position: absolute;
+    top: 12vh;
+    left: 10%;
+    width: 80%;
+}
+
+.grundgeruest-container2{
+    position: absolute;
+    width: 90%;
+    height: 145vh;
+    margin-top: 5vh;
+    left: 5%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}

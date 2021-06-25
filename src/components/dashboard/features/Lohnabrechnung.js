@@ -1,7 +1,5 @@
 import React from "react";
-
 import Datei from "./Allgemein/Datei.js";
-
 
 class Lohnabrechnung extends React.Component {
 
@@ -24,25 +22,26 @@ class Lohnabrechnung extends React.Component {
     }
   ];
 
-
   render() {
-  return (
-    <main>
-    <div className="main__container">
-      <div className="headliner">
-        <h2>Lohnabrechnung</h2>
-        <span>Hier können Sie ihre Lohnabrechnungen einsehen</span>
-      </div>
-        <div className="grundgeruest-container">
-          {this.lohnabrechnungen_files.map((field, index) => {
-              return (
-                <Datei firstFile={index === 0 ? true : false} isFolder={field.isFolder} nameForVis={field.filename} gerade={index % 2 === 0 ? true : false}/>
-              )
-            })}
+    return (
+      <main>
+        <div className="main__container">
+          <div className="headliner">
+            <h2>Lohnabrechnung</h2>
+            <span>Hier können Sie ihre Lohnabrechnungen einsehen</span>
+          </div>
+          <div className="grundgeruest-container">
+            {this.lohnabrechnungen_files.map((field, index) => {
+                return (
+                  <Datei firstFile={index === 0 ? true : false} isFolder={field.isFolder} nameForVis={field.filename} gerade={index % 2 === 0 ? true : false}/>
+                )
+              })}
+
+              
+          </div>
         </div>
-     </div>
-  </main>
-  );
+      </main>
+    );
   }
 };
 

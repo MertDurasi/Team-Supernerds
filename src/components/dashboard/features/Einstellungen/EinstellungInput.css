@@ -1,207 +1,82 @@
+@font-face {
+    font-family: "Volte";
+    src: url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.eot");
+    src: url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.eot?#iefix")
+              format("embedded-opentype"),
+         url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.woff2")
+              format("woff2"),
+         url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.woff")
+              format("woff"),
+         url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.ttf")
+              format("truetype"),
+         url("//db.onlinewebfonts.com/t/265ea857723a2700ebb3db3af7301a2a.svg#Volte") 
+              format("svg");
+}
+
+#position-text-einstellungen {
+    font-family: "Volte", Medium, sans-serif;
+}
+
+.text-field-altespasswort2{
+    margin-top: 18px;
+}
+
+.text-field-emailadresse{
+    margin-top: 15px;
+}
+
+.text-field-emailadresse2{
+    margin-top: 18px;
+}
 
 #basic-input-einstellungen {
-    font-size: 15px;
+    font-family: "Volte", Medium, sans-serif;
+    font-size: 20px;
     position: relative;
-    margin-top: 10px;
     height: 50%;
+    width: 100%;
     left: 0;   
-    background-color: rgb(212, 234, 240);
+    outline: 0;
+    margin-top: 10px;
+    margin-bottom: 1.3em;
     border: 1px solid #a5aaad;
     border-radius: 5px 5px 5px 5px;
-    margin-top: 10px;
-    outline: 0;
+    background-color: rgb(212, 234, 240);
 }
 
-
-
-.field-strasse-container input{
-    width: 265%;
+#speichern-einstellungen-btn {
+    font-family: "Volte", Medium, sans-serif;
+    font-size: 90%;
+    font-weight: 600;
+    width: 172px;
+    height: 37px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    border-radius: 20px;
+    background-color: #0046FE;
 }
 
-.field-oldpw-container input{
-    width: 200%;
+#speichern-einstellungen-btn:hover {
+    background-image: linear-gradient(to right, #0546c0, #103579);
 }
 
-
-.field-newpw-container input{
-    width: 200%;
+#speichern-einstellungen-btn2 {
+    font-family: "Volte", Medium, sans-serif;
+    font-size: 90%;
+    font-weight: 600;
+    width: 172px;
+    height: 37px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    border-radius: 20px;
+    background-color: #0046FE;
+    margin-bottom: 55px;
 }
 
-
-.field-newpwagain-container input{
-    width: 150%;
-}
-
-.field-email-container input{
-    width: 200%;
-}
-
-
-@media only screen and (max-width: 1280px) {
-    .field-vorname-container {
-        top: 25% !important;
-        left: 10% !important;
-    }
-
-    .field-nachname-container {
-        top: 37% !important;
-        left: 10% !important;
-    }
-
-
-    .field-strasse-container {
-        top: 47% !important;
-        left: 10% !important;
-    }
-
-
-    .field-plz-container {
-        top: 59% !important;
-        left: 10% !important;
-    }
-
-    .field-stadt-container {
-        top: 71% !important;
-        left: 10% !important;
-    }
-
-    #speichern-einstellungen-btn {
-        top: 85%; 
-        left: 10%;
-    }
-}
-
-@media only screen and (max-width: 850px) {
-
-    #speichern-einstellungen-btn {
-        width: 100px;
-    }
-
-    #pwchange-einstellungen-btn {
-        top: 42%;
-        left: 60%;
-        width: 100px;
-    }
-    #emailchange-einstellungen-btn {
-        left: 60%;
-        width: 100px;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-
-    .grundgeruest-container {
-        height: 1100px;
-    }
-
-    .einstellungen-container {
-        height: 900px;
-    }
-
-    .field-vorname-container {
-        top: 0 !important;
-        left: 20% !important;
-    }
-
-    .field-nachname-container {
-        top: 7% !important;
-        left: 20% !important;
-    }
-
-
-    .field-strasse-container {
-        top: 14% !important;
-        left: 20% !important;
-    }
-
-
-    .field-plz-container {
-        top: 21% !important;
-        left: 20% !important;
-    }
-
-    .field-stadt-container {
-        top: 28% !important;
-        left: 20% !important;
-    }
-
-    
-    #speichern-einstellungen-btn {
-        top: 35%;
-        width: 150px;
-        height: 50px;
-        left: 22%;
-    }
-
-    .field-oldpw-container {
-        top: 42% !important;
-        left: 20% !important;
-    }
-
-    .field-newpw-container {
-        top: 51% !important;
-        left: 20% !important;
-    }
-
-    
-    .field-newpwagain-container {
-        top: 59% !important;
-        left: 20% !important;
-    }
-
-    #pwchange-einstellungen-btn {
-        top: 70%;
-        left: 22%;
-        width: 150px;
-        height: 50px;
-    }
-
-    .field-email-container {
-        top: 78% !important;
-        left: 20% !important;
-    }
-
-    #emailchange-einstellungen-btn {
-        top: 89%;
-        left: 22%;
-        width: 150px;
-        height: 50px;
-    }
-
-
-
-    .wrapper-for-img {
-        display: none;
-    }
-
-    hr {
-        display: none;
-    }
-   
-    .field-newpwagain-container input{
-        width: 225% !important;
-    }
-
-}
-
-@media only screen and (max-width: 300px) {
-
-    #speichern-einstellungen-btn {
-        left: 15%;
-        width: 100px;
-        height: 50px;
-    }
-
-    #pwchange-einstellungen-btn {
-        left: 15%;
-        width: 100px;
-        height: 50px;
-    }
-
-    #emailchange-einstellungen-btn {
-        left: 15%;
-        width: 100px;
-        height: 50px;
-    }
-
+#speichern-einstellungen-btn2:hover {
+    background-image: linear-gradient(to right, #0546c0, #103579);
 }

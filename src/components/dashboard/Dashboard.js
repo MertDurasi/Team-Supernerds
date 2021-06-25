@@ -6,7 +6,7 @@ import Sidebar from "./Sidebar";
 import "./features/Grundgeruest.css";
 import Urlaubsantrag from "./features/Urlaubsantrag";
 import Downloads from "./features/Downloads";
-import Einstellungen from "./features/Einstellungen";
+import Einstellungen from "./features/Einstellungen/Einstellungen";
 import Kontaktformular from "./features/Kontaktformular";
 import Lohnabrechnung from "./features/Lohnabrechnung";
 import Dienstplan from "./features/Dienstplan";
